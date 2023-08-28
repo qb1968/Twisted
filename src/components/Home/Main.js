@@ -20,7 +20,7 @@ const Main = () => {
             <div
               className=" slider-bg d-flex align-items-center"
               style={{
-                backgroundSize: "90% auto",
+                backgroundSize: "contain",
                 backgroundRepeat:"no-repeat",
                 backgroundImage: `url(${BGImg})`,
                 height:"102vh"
@@ -31,7 +31,7 @@ const Main = () => {
                 <div className="row justify-content-center align-items-center">
                   <div className="col-lg-6 col-md-6">
                     
-                  <image src={BGImg}></image>
+                  
                      
                   </div>
                   <div className="col-lg-6 col-md-6 p-relative"></div>

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import React, { useState } from "react";
-import Img1 from "../../assets/img/logo/logo.png";
+import Img1 from "../../assets/img/bg/Ts.png";
 
 const Main = () => {
   const [mobile, setmobile] = useState(false);
@@ -15,10 +15,8 @@ const Main = () => {
         <div id="header-sticky" className="menu-area">
           <div className="container">
             <div className="second-menu">
-              <div className="row align-items-center">
-                <div className="col-xl-2 col-lg-2">
-                 
-                </div>
+              <div className="row " style={{display: 'flex', flexDirection: 'row',justifyContent: 'center'}}>
+                
                 <div className="col-xl-7 col-lg-7">
                   <div className="main-menu text-right text-xl-right">
                     <nav id="mobile-menu">
