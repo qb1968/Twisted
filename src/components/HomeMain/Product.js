@@ -88,7 +88,7 @@ const Product = () => {
           backgroundSize: "contain",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
-          background: `url(${BGImg4})`,
+          backgroundColor: "#ADD8E6",
         }}
       >
         <div className="container">
@@ -107,25 +107,17 @@ const Product = () => {
             <div className="col-lg-4 col-md-12">
               <div className="product mb-40">
                 <div className="product__img">
-                 
-                    <img src={Img1} alt="" />
-                 
-                 
+                  <img src={Img1} alt="" />
                 </div>
-                
               </div>
             </div>
             <div className="col-lg-4 col-md-12">
               <div className="product mb-40">
                 <div className="product__img">
-                  
-                    <img src={Img2} alt="" />
-                 
+                  <img src={Img2} alt="" />
                 </div>
-                
               </div>
             </div>
-           
           </Slider>
         </div>
       </section>

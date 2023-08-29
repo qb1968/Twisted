@@ -15,7 +15,7 @@ const Main = () => {
   return (
     <>
       <main>
-        <section id="home" className="slider-area fix p-relative">
+        {/* <section id="home" className="slider-area fix p-relative">
           <div className="slider-active" style={{ background: "#ADD8E6" }}>
             <div
               className=" slider-bg d-flex align-items-center"
@@ -39,16 +39,33 @@ const Main = () => {
               </div>
             </div>
           </div>
+        </section> */}
+        <section id="home" className="slider-area fix p-relative">
+          <div className="slider-active" style={{ background: "#ADD8E6" }}>
+            <div
+              className="single-slider slider-bg d-flex align-items-center"
+              style={{
+                backgroundSize: "90%",
+                backgroundRepeat: "no-repeat",
+                backgroundImage: `url(${BGImg})`,
+              }}
+            >
+              <div className="container">
+                <div className="row justify-content-center align-items-center">
+                  <div className="col-lg-6 col-md-6">
+                    <div className="slider-content s-slider-content mt-20"></div>
+                  </div>
+                  <div className="col-lg-6 col-md-6 p-relative"></div>
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
-        
         <About />
-        
-        
-        <Product />
-        
-        
+
+        <Product style={{ backgroundColor: "#ADD8E6" }} />
+
         <Testimonial />
-        
       </main>
     </>
   );
