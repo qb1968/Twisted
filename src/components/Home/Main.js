@@ -16,20 +16,14 @@ const Main = () => {
     <>
       <main>
         <section id="home" className="slider-area fix p-relative" style={{marginTop:"5rem"}}>
-          <div className="slider-active" style={{ background: "#ADD8E6" }}>
+          <div className="slider-active" >
             <div
               className="single-slider slider-bg d-flex align-items-center"
-              style={{
-                backgroundSize: "contain",
-                backgroundRepeat: "no-repeat",
-                backgroundPosition:"center",
-                backgroundImage: `url(${BGImg}) `,
-                height:"auto",
-                width:"auto"
-              }}
+             
             >
-              <div className="container">
+              <div className="container" style={{ background: "#ADD8E6",width:"%100" }}>
                 <div className="row justify-content-center align-items-center">
+                  <img src={BGImg}/>
                   <div className="col-lg-6 col-md-6">
                     <div className="slider-content s-slider-content mt-20">
                      

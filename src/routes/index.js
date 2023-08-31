@@ -43,7 +43,7 @@ const Routing = () => {
     <>
       {homepage && <Navbar />}
       <Routes>
-        <Route path ="/" element={<Loading/>}/>
+        
       
       
         

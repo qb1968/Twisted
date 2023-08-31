@@ -7,7 +7,7 @@ const Bredcrumb = ({ title, subtitle }) => {
     <>
       <section
         className="breadcrumb-area d-flex align-items-center"
-        style={{ backgroundImage: `url(${BGIMG})` }}
+        style={{ backgroundColor: "#ADD8E6"}}
       >
         <div className="container">
           <div className="row align-items-center">
@@ -16,19 +16,7 @@ const Bredcrumb = ({ title, subtitle }) => {
                 <div className="breadcrumb-title">
                   <h2>{title}</h2>
                   <div className="breadcrumb-wrap">
-                    <nav aria-label="breadcrumb">
-                      <ol className="breadcrumb">
-                        <li className="breadcrumb-item">
-                          <Link to="/">Home</Link>
-                        </li>
-                        <li
-                          className="breadcrumb-item active"
-                          aria-current="page"
-                        >
-                          {subtitle}
-                        </li>
-                      </ol>
-                    </nav>
+                    
                   </div>
                 </div>
               </div>

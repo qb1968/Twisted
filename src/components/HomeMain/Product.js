@@ -51,12 +51,12 @@ const Product = () => {
     autoPlay: true,
     prevArrow: <SamplePrevArrow />,
     nextArrow: <SampleNextArrow />,
-    slidesToShow: 4,
+    slidesToShow: 2,
     responsive: [
       {
         breakpoint: 1200,
         settings: {
-          slidesToShow: 4,
+          slidesToShow: 2,
           slidesToScroll: 1,
           infinite: true,
           dots: true,
