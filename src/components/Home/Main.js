@@ -15,45 +15,29 @@ const Main = () => {
   return (
     <>
       <main>
-        {/* <section id="home" className="slider-area fix p-relative">
-          <div className="slider-active" style={{ background: "#ADD8E6" }}>
-            <div
-              className=" slider-bg d-flex align-items-center"
-              style={{
-                backgroundSize: "contain",
-                backgroundRepeat:"no-repeat",
-                backgroundImage: `url(${BGImg})`,
-                height:"102vh"
-                
-              }}
-            >
-              <div className="container">
-                <div className="row justify-content-center align-items-center">
-                  <div className="col-lg-6 col-md-6">
-                    
-                  
-                     
-                  </div>
-                  <div className="col-lg-6 col-md-6 p-relative"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section> */}
-        <section id="home" className="slider-area fix p-relative">
+        <section id="home" className="slider-area fix p-relative" style={{marginTop:"5rem"}}>
           <div className="slider-active" style={{ background: "#ADD8E6" }}>
             <div
               className="single-slider slider-bg d-flex align-items-center"
               style={{
-                backgroundSize: "90%",
+                backgroundSize: "contain",
                 backgroundRepeat: "no-repeat",
-                backgroundImage: `url(${BGImg})`,
+                backgroundPosition:"center",
+                backgroundImage: `url(${BGImg}) `,
+                height:"auto",
+                width:"auto"
               }}
             >
               <div className="container">
                 <div className="row justify-content-center align-items-center">
                   <div className="col-lg-6 col-md-6">
-                    <div className="slider-content s-slider-content mt-20"></div>
+                    <div className="slider-content s-slider-content mt-20">
+                     
+
+                      <div className="slider-btn mt-30">
+                        
+                      </div>
+                    </div>
                   </div>
                   <div className="col-lg-6 col-md-6 p-relative"></div>
                 </div>
@@ -61,6 +45,7 @@ const Main = () => {
             </div>
           </div>
         </section>
+
         <About />
 
         <Product style={{ backgroundColor: "#ADD8E6" }} />

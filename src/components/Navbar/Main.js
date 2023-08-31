@@ -12,7 +12,7 @@ const Main = () => {
   return (
     <>
       <header className="header-area header-three">
-        <div id="header-sticky" className="menu-area">
+        <div id="header" className="menu-area">
           <div className="container">
             <div className="second-menu">
               <div className="row " style={{display: 'flex', flexDirection: 'row',justifyContent: 'center'}}>
@@ -22,18 +22,8 @@ const Main = () => {
                     <nav id="mobile-menu">
                       <ul>
                         <li className="has-sub">
-                          <Link to="/">Home</Link>
-                          <ul>
-                            <li>
-                              <Link to="/">Home Page 01</Link>
-                            </li>
-                            <li>
-                              <Link to="/home-two">Home Page 02</Link>
-                            </li>
-                            <li>
-                              <Link to="/home-three">Home Page 03</Link>
-                            </li>
-                          </ul>
+                          <Link to="/home">Home</Link>
+                          
                         </li>
                         <li>
                           <Link to="/about">About Us</Link>

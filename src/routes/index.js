@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Route, Routes, useLocation } from 'react-router-dom'
+import { Route, Routes, useLocation, BrowserRouter as Router } from 'react-router-dom'
 import Navbar from '../components/Navbar/Main'
 import Footer from '../components/Footer/Main'
 import Home from '../components/Home/Main'
@@ -18,6 +18,7 @@ import ShopDetails from '../components/Pages/ShopDetails/Main'
 import Blog from '../components/BlogMain/Blog/Main'
 import BlogDetails from '../components/BlogMain/BlogDetails/Main'
 import Contact from '../components/Contact/Main'
+import Loading from '../components/loading/index'
 
 
 const Routing = () => {
@@ -42,7 +43,11 @@ const Routing = () => {
     <>
       {homepage && <Navbar />}
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path ="/" element={<Loading/>}/>
+      
+      
+        
+        <Route path="/home" element={<Home />} />
         <Route path="/home-two" element={<HomeTwo />} />
         <Route path="/home-three" element={<HomeThree />} />
         <Route path="/about" element={<AboutUs />} />

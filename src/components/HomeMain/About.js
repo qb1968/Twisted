@@ -25,7 +25,7 @@ const About = () => {
               >
                 <img src={Img} alt="img"  style={{width:800,height:500}}/>
                 <div className="about-text second-about" style={{marginLeft:80}}>
-                  <span>15</span>
+                  <span>19</span>
                   <p>Years of Experience</p>
                 </div>
               </div>
