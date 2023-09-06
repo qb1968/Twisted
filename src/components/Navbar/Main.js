@@ -15,44 +15,27 @@ const Main = () => {
         <div id="header" className="menu-area">
           <div className="container">
             <div className="second-menu">
-              <div className="row " style={{display: 'flex', flexDirection: 'row',justifyContent: 'center'}}>
-                
-                <div className="col-xl-7 col-lg-7">
-                  <div className="main-menu text-right text-xl-right">
+              <div
+                className="row "
+                style={{
+                  display: "flex",
+                  flexDirection: "row",
+                  justifyContent: "center",
+                }}
+              >
+                <div className="col-xl-4 col-lg-7">
+                  <div className="main-menu ">
                     <nav id="mobile-menu">
                       <ul>
                         <li className="has-sub">
                           <Link to="/home">Home</Link>
-                          
                         </li>
                         <li>
                           <Link to="/about">About Us</Link>
                         </li>
                         <li className="has-sub">
                           <Link to="/service">Services</Link>
-                          <ul>
-                            <li>
-                              <Link to="/service-details"> Facials</Link>
-                            </li>
-                            <li>
-                              <Link to="/service-details">Body Treatments</Link>
-                            </li>
-                            <li>
-                              <Link to="/service-details"> Mineral Baths</Link>
-                            </li>
-                            <li>
-                              <Link to="/service-details">Waxing</Link>
-                            </li>
-                            <li>
-                              <Link to="/service-details">Massage</Link>
-                            </li>
-                            <li>
-                              <Link to="/service-details">Geothermal Spa</Link>
-                            </li>
-                            <li>
-                              <Link to="/service">Services</Link>
-                            </li>
-                          </ul>
+                         
                         </li>
                         <li className="has-sub">
                           <Link to="#">Pages</Link>
@@ -61,50 +44,28 @@ const Main = () => {
                               <Link to="/gallery">Gallery</Link>
                             </li>
 
-                            <li>
-                              <Link to="/pricing">Pricing</Link>
-                            </li>
-                            <li>
-                              <Link to="/faq">Faq</Link>
-                            </li>
+                           
                             <li>
                               <Link to="/team">Team</Link>
                             </li>
-                            <li>
-                              <Link to="/team-details">Team Details</Link>
-                            </li>
-                            <li>
-                              <Link to="/shop">Shop</Link>
-                            </li>
-                            <li>
-                              <Link to="/shop-details">Shop Details</Link>
-                            </li>
+                            
                           </ul>
                         </li>
-                        <li className="has-sub">
-                          <Link to="/blog">Blog</Link>
-                          <ul>
-                            <li>
-                              <Link to="/blog">Blog</Link>
-                            </li>
-                            <li>
-                              <Link to="/blog-details">Blog Details</Link>
-                            </li>
-                          </ul>
-                        </li>
+                       
                         <li>
                           <Link to="/contact">Contact</Link>
                         </li>
                       </ul>
                     </nav>
+                    
                   </div>
+                  
                 </div>
+                <img src={Img1} style={{ backgroundColor: "#ADD8E6" }} />
                 <div className="col-xl-3 col-lg-3 text-right d-none d-lg-block mt-25 mb-25 text-right text-xl-right">
                   <div className="login">
                     <ul>
-                      <li>
-                       
-                      </li>
+                      <li></li>
                     </ul>
                   </div>
                 </div>

@@ -23,9 +23,14 @@ const About = () => {
                 data-animation="fadeInLeft"
                 data-delay=".4s"
               >
-                <img src={Img} alt="img"  style={{width:800,height:500}}/>
-                <div className="about-text second-about" style={{marginLeft:80}}>
-                  <span>19</span>
+                <img src={Img} alt="img" style={{ width: 800, height: 500 }} />
+                <div
+                  className="about-text second-about"
+                  style={{ marginLeft: 80 }}
+                >
+                  <span style={{ color: "#2D92B3", fontWeight: "bold" }}>
+                    19
+                  </span>
                   <p>Years of Experience</p>
                 </div>
               </div>
@@ -37,19 +42,18 @@ const About = () => {
                 data-delay=".4s"
               >
                 <div className="about-title second-title pb-25">
-                  <h5>Our Services</h5>
-                  
+                  <h5 style={{ color: "#2D92B3", fontWeight: "bold",}}>
+                    Our Services
+                  </h5>
                 </div>
-                <p>
-                  All of our services are specifically made for
-                  you. From hair color to hair treatments, Twisted Sisters Salon
-                  is committed to using innovative techniques to uplift our
-                  clients and leave them feeling beautiful. Our services
-                  include, but are not limited to: balayage, ombré, hair
-                  extensions, hair cutting, styling and so much more.
+                <p style={{color:"black"}}>
+                  All of our services are specifically made for you. From hair
+                  color to hair treatments, Twisted Sisters Salon is committed
+                  to using innovative techniques to uplift our clients and leave
+                  them feeling beautiful. Our services include, but are not
+                  limited to: balayage, ombré, hair extensions, hair cutting,
+                  styling and so much more.
                 </p>
-               
-                
               </div>
             </div>
           </div>

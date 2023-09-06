@@ -165,7 +165,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'PT Serif', serif;
+    font-family: 'Dancing Script', cursive;
 	color: #00173c;
 	margin-top: 0px;
 	font-style: normal;
@@ -205,6 +205,7 @@ ul {
 }
 li {
 	list-style: none
+
 }
 p {
 
@@ -493,7 +494,7 @@ top: -3px;
 	position: relative;
 }
 .main-menu ul li.active a {
-	color: #ff4f9d;
+	color: #ADD8E6;
 }
 .main-menu ul li a {
 	display: block;
@@ -505,9 +506,9 @@ top: -3px;
     font-family: 'PT Serif', serif;
 }
 .main-menu ul li a::after {
-  content: "+";
+  
   margin-left: 10px;
-  color: #ff4f9d;
+  color: #ADD8E6;
 }
 .main-menu ul li:last-child a::after,.main-menu .has-sub ul li a::after {
   display: none;
@@ -528,7 +529,7 @@ top: -3px;
 	transition: .3s;
 }
 
-.main-menu ul li:hover > a{color: #ff4f9d;}
+.main-menu ul li:hover > a{color: #ADD8E6;}
 .main-menu ul li:hover > a::before{width: 100%;}
 .display-ib{display: inline-block;}
 .header-social a {
@@ -891,7 +892,7 @@ z-index: 9;
 }
 
 .header-three .main-menu ul li a {
-        font-family: 'PT Serif', serif;
+        font-family: 'Dancing Script',cursive;
     color:#141b22;
 }
 .header-three .main-menu .sub-menu li a,.menu .children li a {
@@ -5855,7 +5856,7 @@ text-align: left;
 }
 
 .main-menu .has-sub a:hover{
-	color:#ff4f9d;
+	color:#ADD8E6;
 }
 
 .main-menu .has-sub:hover > ul { visibility: visible; margin-top: 0px; opacity: 1;}

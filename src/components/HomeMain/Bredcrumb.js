@@ -7,7 +7,7 @@ const Bredcrumb = ({ title, subtitle }) => {
     <>
       <section
         className="breadcrumb-area d-flex align-items-center"
-        style={{ backgroundColor: "#ADD8E6"}}
+        style={{ marginTop:"5rem"}}
       >
         <div className="container">
           <div className="row align-items-center">

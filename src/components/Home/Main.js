@@ -15,7 +15,7 @@ const Main = () => {
   return (
     <>
       <main>
-        <section id="home" className="slider-area fix p-relative" style={{marginTop:"5rem"}}>
+        {/* <section id="home" className="slider-area fix p-relative" style={{marginTop:"5rem"}}>
           <div className="slider-active" >
             <div
               className="single-slider slider-bg d-flex align-items-center"
@@ -38,7 +38,7 @@ const Main = () => {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         <About />
 

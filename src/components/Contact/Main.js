@@ -6,15 +6,15 @@ import Bredcrumb from "../HomeMain/Bredcrumb";
 const Main = () => {
   return (
     <>
-      <Bredcrumb title="Contact Us" subtitle="Contact Us" />
+      
       <Appointment />
 
-      <div className="map fix" style={{ background: "#F5F5F5" }}>
+      <div className="map fix" >
         <div className="container-flud">
           <div className="row">
             <div className="col-lg-12">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d212867.83634504632!2d-112.24455686962897!3d33.52582710700138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b743829374b03%3A0xabaac255b1e43fbe!2sPlexus%20Worldwide!5e0!3m2!1sen!2sin!4v1618567685329!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12897.755545875261!2d-79.4680246!3d36.082788!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88532bdf075c37d3%3A0x612f6cb1aabb0334!2sTwisted%20Sisters%20Salon!5e0!3m2!1sen!2sus!4v1694006564098!5m2!1sen!2sus"
                 width="600"
                 height="450"
                 style={{ border: "0" }}

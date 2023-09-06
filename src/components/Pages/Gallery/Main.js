@@ -5,9 +5,7 @@ import Gallery from '../../HomeMain/Gallery'
 const Main = () => {
   return (
     <>
-      <Bredcrumb
-        title="Gallery"
-        subtitle="Gallery" />
+      
       <div className="gallery-block">
         <Gallery />
       </div>

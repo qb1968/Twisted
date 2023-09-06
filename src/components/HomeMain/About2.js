@@ -35,7 +35,16 @@ const About = () => {
               data-delay=".4s"
             >
               <div className="about-title second-title ">
-                <h5 style={{display:"flex",textAlign:"center"}}>About Us</h5>
+                <h5
+                  style={{
+                    display: "flex",
+                    textAlign: "center",
+                    color: "#2D92B3",
+                    fontWeight: "bold",
+                  }}
+                >
+                  About Us
+                </h5>
               </div>
               <p>
                 It all started six years ago with sisters Jacki and Samantha sat

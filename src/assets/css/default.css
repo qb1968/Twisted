@@ -725,9 +725,7 @@
 .text-right{
 text-align: right;
 }
-a {
-    text-decoration: none;
-}
+
 /*********************** Demo - 20 *******************/
 .box20{position:relative}
 .box20:after,.box20:before{position:absolute;content:""}

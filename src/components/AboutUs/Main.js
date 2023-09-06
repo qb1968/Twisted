@@ -47,7 +47,7 @@ const Main = () => {
 
   return (
     <>
-      <Bredcrumb title="The Sisters" subtitle="About Us" />
+     
       <About2 />
      
                 

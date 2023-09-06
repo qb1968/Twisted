@@ -8,6 +8,7 @@ import Icon4 from "../../assets/img/icon/fe-icon04.png";
 import Icon5 from "../../assets/img/icon/fe-icon06.png";
 import Icon6 from "../../assets/img/icon/fe-icon08.png";
 import Img from "../../assets/img/features/services-img-details2.png";
+import Img1 from "../../assets/img/bg/Ts.png";
 
 const Service = () => {
   return (
@@ -33,99 +34,108 @@ const Service = () => {
             <div className="about-content s-about-content">
               <ul className="sr-tw-ul ">
                 <li>
-                  <div className="icon-right">
-                    <img src={Icon1} alt="icon01" />
-                  </div>
+                  
                   <div className="text">
                     <h4>
-                      <Link to="/service-details">Facials</Link>
+                      <h2 to="/service-details">Facials</h2>
                     </h4>
                     <p>
-                      Cras id aliquam leo. Vestibulum laoreet, mi sit amet
-                      tristique tincidunt nec laoreet.
+                     Cut/Style
+                    </p>
+                    <p>
+                      Mens Cut
+                    </p>
+                    <p>
+                      Children
+                    </p>
+                    <p>
+                      Blowdry
+                    </p>
+                    <p>
+                     Special Style/Updos
                     </p>
                   </div>
                 </li>
                 <li>
-                  <div className="icon-right">
-                    <img src={Icon2} alt="icon01" />
-                  </div>
+                  
                   <div className="text">
                     <h4>
-                      <Link to="/service-details">Mineral Baths</Link>
+                      <h2 to="/service-details">Additional</h2>
                     </h4>
                     <p>
-                      Aenean eleifend turpis tellus, nec laoreet metus elementum
-                      ac.
+                      Extensions
                     </p>
+                    <p>Keratin Treatment</p>
                   </div>
                 </li>
                 <li>
-                  <div className="icon-right">
-                    <img src={Icon3} alt="icon01" />
-                  </div>
-                  <div className="text">
-                    <h4>
-                      <Link to="/service-details">Massage</Link>
-                    </h4>
-                    <p>
-                      Aenean eleifend turpis tellus, nec laoreet metus elementum
-                      ac.
-                    </p>
-                  </div>
+                  
+                 
                 </li>
               </ul>
             </div>
           </div>
           <div className="col-lg-4 col-md-12 col-sm-12 text-center d-none d-lg-block">
             <div className="sd-img">
-              <img src={Img} alt="img" />
+             
             </div>
           </div>
           <div className="col-lg-4 col-md-6 col-sm-12">
             <div className="about-content s-about-content">
               <ul className="sr-tw-ul sr-thr-ul">
                 <li>
-                  <div className="icon">
-                    <img src={Icon4} alt="icon01" />
-                  </div>
-                  <div className="text pt-10">
+                  
+                  <div className="text pt-40">
                     <h4>
-                      <Link to="/service-details">Body Treatments</Link>
+                      <h2 to="/service-details">Technical</h2>
                     </h4>
                     <p>
-                      Aenean eleifend turpis tellus, nec laoreet metus elementum
-                      ac.
+                      Color Gloss
+                    </p>
+                    <p>
+                      Tints
+                    </p>
+                    <p>
+                      Lightners
+                    </p>
+                    <p>
+                     Ombré
+                    </p>
+                    <p>
+                      Highlights
+                    </p>
+                    <p>
+                      Tint with Highlights
+                    </p>
+                    <p>
+                      Balayage
+                    </p>
+                    <p>
+                     Relaxers
+                    </p>
+                    <p>
+                      Perms
+                    </p>
+                    <p>
+                     Corrective Colour
+                    </p>
+                    
+                  </div>
+                </li>
+                <li>
+                 
+                  <div className="text pt-10">
+                    <h4>Waxing
+                      <h2 to="/service-details">Waxing</h2>
+                    </h4>
+                    <p>
+                     Facial and Eyebrows
                     </p>
                   </div>
                 </li>
                 <li>
-                  <div className="icon">
-                    <img src={Icon5} alt="icon01" />
-                  </div>
-                  <div className="text pt-10">
-                    <h4>
-                      <Link to="/service-details">Waxing</Link>
-                    </h4>
-                    <p>
-                      Aenean eleifend turpis tellus, nec laoreet metus elementum
-                      ac.
-                    </p>
-                  </div>
-                </li>
-                <li>
-                  <div className="icon">
-                    <img src={Icon6} alt="icon01" />
-                  </div>
-                  <div className="text pt-10">
-                    <h4>
-                      <Link to="/service-details">Geothermal Spa</Link>
-                    </h4>
-                    <p>
-                      Aenean eleifend turpis tellus, nec laoreet metus elementum
-                      ac.
-                    </p>
-                  </div>
+                 
+                  
                 </li>
               </ul>
             </div>

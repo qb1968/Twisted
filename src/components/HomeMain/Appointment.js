@@ -12,7 +12,6 @@ const Appointment = () => {
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
-          backgroundImage: `url(${BGImg3})`,
         }}
       >
         <div className="container">
@@ -20,12 +19,10 @@ const Appointment = () => {
             <div className="col-lg-6">
               <div className="contact-bg">
                 <div className="section-title center-align">
-                  <h5>Get In Touch</h5>
+                
                   <h2>Get Appointment</h2>
                   <p>
-                    Aenean ut enim vel lectus rutrum sodales. Aliquam consequat
-                    augue eget enim convallis, at maximus libero ullamcorper.
-                    Cras sit amet placerat nisi.
+                    Fill out your information.
                   </p>
                 </div>
                 <form
@@ -64,7 +61,23 @@ const Appointment = () => {
                           id="inputGroupSelect04"
                           aria-label="Example select with button addon"
                         >
-                          <option> Department...</option>
+                          <option> Stylist...</option>
+                          <option value="1">Sam</option>
+                          <option value="2">Two</option>
+                          <option value="3">Three</option>
+                        </select>
+                        <i className="fa fa-angle-down"></i>
+                      </div>
+                    </div>
+
+                    <div className="col-lg-6">
+                      <div className="contact-field p-relative c-subject mb-20">
+                        <select
+                          className="custom-select"
+                          id="inputGroupSelect04"
+                          aria-label="Example select with button addon"
+                        >
+                          <option> Service Needed...</option>
                           <option value="1">One</option>
                           <option value="2">Two</option>
                           <option value="3">Three</option>
@@ -74,12 +87,17 @@ const Appointment = () => {
                     </div>
                     <div className="col-lg-6">
                       <div className="contact-field p-relative c-subject mb-20">
-                        <input
-                          type="date"
-                          id="subject"
-                          name="subject"
-                          placeholder="Subject"
-                        />
+                        <select
+                          className="custom-select"
+                          id="inputGroupSelect04"
+                          aria-label="Example select with button addon"
+                        >
+                          <option> How Soon...</option>
+                          <option value="1">One</option>
+                          <option value="2">Two</option>
+                          <option value="3">Three</option>
+                        </select>
+                        <i className="fa fa-angle-down"></i>
                       </div>
                     </div>
                     <div className="col-lg-12">
@@ -111,22 +129,11 @@ const Appointment = () => {
                 <div className="open-img">
                   <img src={Img} alt="icon01" />
                 </div>
-                <h3>Opening Hours</h3>
-                <div className="text">
-                  <div className="left-text">Monday to Friday:</div>
-                  <div className="right-text">09:00 am – 10:00 pm</div>
-                </div>
-                <div className="text">
-                  <div className="left-text">Saturday:</div>
-                  <div className="right-text">09:00 am – 08:00 pm</div>
-                </div>
-                <div className="text">
-                  <div className="left-text">Sunday:</div>
-                  <div className="right-text">09:00 am – 05:00 pm</div>
-                </div>
-                <div className="discount">
-                  Check out seasonal discounts for best offers.
-                </div>
+                <h3>
+                  Contact Us Today! Phone: 336.229.4078 2127 S. Church St.
+                  Burlington, NC 27215
+                </h3>
+                
               </div>
             </div>
           </div>

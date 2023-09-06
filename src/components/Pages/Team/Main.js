@@ -1,11 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Bredcrumb from "../../HomeMain/Bredcrumb";
+import Sam from "../../../assets/img/team/sam.png"
+import Jacki from "../../../assets/img/team/jacki.png"
+import Emily from "../../../assets/img/team/emily.png"
 
 const Main = () => {
   return (
     <>
-      <Bredcrumb title="Team" subtitle="Team" />
+     
 
       <section className="team-area fix p-relative pt-120 pb-90">
         <div className="container">
@@ -14,12 +17,12 @@ const Main = () => {
               <div className="single-team mb-45">
                 <div className="team-thumb">
                   <div className="brd">
-                    <img src="assets/img/team/team01.png" alt="img" />
+                    <img src={Sam} alt="img" />
                   </div>
                 </div>
                 <div className="team-info">
                   <h4>
-                    <Link to="/team-details">Bableo Dablo</Link>
+                    <Link to="/team-details">Samantha Sykes</Link>
                   </h4>
                   <p>Worker</p>
                   <div className="team-social">
@@ -48,12 +51,12 @@ const Main = () => {
               <div className="single-team mb-45">
                 <div className="team-thumb">
                   <div className="brd">
-                    <img src="assets/img/team/team02.png" alt="img" />
+                    <img src={Jacki} alt="img" />
                   </div>
                 </div>
                 <div className="team-info">
                   <h4>
-                    <Link to="/team-details">Dawon Crisen</Link>
+                    <Link to="/team-details">Jacki Jochum</Link>
                   </h4>
                   <p>Worker</p>
                   <div className="team-social">
@@ -82,12 +85,12 @@ const Main = () => {
               <div className="single-team mb-45">
                 <div className="team-thumb">
                   <div className="brd">
-                    <img src="assets/img/team/team03.png" alt="img" />
+                    <img src={Emily} alt="img" />
                   </div>
                 </div>
                 <div className="team-info">
                   <h4>
-                    <Link to="/team-details">David Suarez</Link>
+                    <Link to="/team-details">Emily Moody</Link>
                   </h4>
                   <p>Worker</p>
                   <div className="team-social">
