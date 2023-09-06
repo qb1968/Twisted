@@ -126,7 +126,7 @@ const Service = () => {
                  
                   <div className="text pt-10">
                     <h4>Waxing
-                      <h2 to="/service-details">Waxing</h2>
+                      
                     </h4>
                     <p>
                      Facial and Eyebrows
