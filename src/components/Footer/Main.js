@@ -29,7 +29,9 @@ const Main = () => {
                       <img src={Footer} alt="img" />
                     </div>
                     <div className="text">
-                      <span style={{ color: "black" }}>info@example.com</span>
+                      <span style={{ color: "black" }}>
+                        jj.stylesrock@yahoo.com
+                      </span>
                       <h3 style={{ color: "black" }}> Our Email:</h3>
                     </div>
                   </div>
@@ -40,7 +42,7 @@ const Main = () => {
                       <img src={Footer1} alt="img" />
                     </div>
                     <div className="text">
-                      <span style={{ color: "black" }}>+91 598 9874 987</span>
+                      <span style={{ color: "black" }}>336.229.4078</span>
                       <h3 style={{ color: "black" }}>Call Now:</h3>
                     </div>
                   </div>

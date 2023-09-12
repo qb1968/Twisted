@@ -19,11 +19,8 @@ const Appointment = () => {
             <div className="col-lg-6">
               <div className="contact-bg">
                 <div className="section-title center-align">
-                
                   <h2>Get Appointment</h2>
-                  <p>
-                    Fill out your information.
-                  </p>
+                  <p>Fill out your information.</p>
                 </div>
                 <form
                   action="mail.php"
@@ -129,11 +126,10 @@ const Appointment = () => {
                 <div className="open-img">
                   <img src={Img} alt="icon01" />
                 </div>
-                <h3>
-                  Contact Us Today! Phone: 336.229.4078 2127 S. Church St.
-                  Burlington, NC 27215
-                </h3>
-                
+                <h3>Contact Us Today!</h3>
+                <h2> S. Church St.</h2>
+                <h2>Burlington, NC 27215</h2>
+                <h2>Phone: 336.229.4078 2127</h2>
               </div>
             </div>
           </div>
