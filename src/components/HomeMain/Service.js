@@ -9,6 +9,7 @@ import Icon5 from "../../assets/img/icon/fe-icon06.png";
 import Icon6 from "../../assets/img/icon/fe-icon08.png";
 import Img from "../../assets/img/features/services-img-details2.png";
 import Img1 from "../../assets/img/bg/Ts.png";
+import Hair from "../../assets/img/bg/hairbg.jpg"
 
 const Service = () => {
   return (
@@ -19,7 +20,6 @@ const Service = () => {
         backgroundSize: "contain",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
-        backgroundImage: `url(${BGImg2})`,
       }}
     >
       <div className="container">
@@ -34,109 +34,61 @@ const Service = () => {
             <div className="about-content s-about-content">
               <ul className="sr-tw-ul ">
                 <li>
-                  
                   <div className="text">
                     <h4>
-                      <h2 to="/service-details">Facials</h2>
+                      <h2 to="/service-details">Styles</h2>
                     </h4>
-                    <p>
-                     Cut/Style
-                    </p>
-                    <p>
-                      Mens Cut
-                    </p>
-                    <p>
-                      Children
-                    </p>
-                    <p>
-                      Blowdry
-                    </p>
-                    <p>
-                     Special Style/Updos
-                    </p>
+                    <p style={{ color: "black" }}>Cut/Style</p>
+                    <p style={{ color: "black" }}>Mens Cut</p>
+                    <p style={{ color: "black" }}>Children</p>
+                    <p style={{ color: "black" }}>Blowdry</p>
+                    <p style={{ color: "black" }}>Special Style/Updos</p>
                   </div>
                 </li>
                 <li>
-                  
                   <div className="text">
                     <h4>
                       <h2 to="/service-details">Additional</h2>
                     </h4>
-                    <p>
-                      Extensions
-                    </p>
-                    <p>Keratin Treatment</p>
+                    <p style={{ color: "black" }}>Extensions</p>
+                    <p style={{ color: "black" }}>Keratin Treatment</p>
                   </div>
                 </li>
-                <li>
-                  
-                 
-                </li>
+                <li></li>
               </ul>
             </div>
           </div>
+
           <div className="col-lg-4 col-md-12 col-sm-12 text-center d-none d-lg-block">
-            <div className="sd-img">
-             
-            </div>
+            <div className="sd-img"></div>
           </div>
           <div className="col-lg-4 col-md-6 col-sm-12">
             <div className="about-content s-about-content">
               <ul className="sr-tw-ul sr-thr-ul">
                 <li>
-                  
                   <div className="text pt-40">
                     <h4>
                       <h2 to="/service-details">Technical</h2>
                     </h4>
-                    <p>
-                      Color Gloss
-                    </p>
-                    <p>
-                      Tints
-                    </p>
-                    <p>
-                      Lightners
-                    </p>
-                    <p>
-                     Ombré
-                    </p>
-                    <p>
-                      Highlights
-                    </p>
-                    <p>
-                      Tint with Highlights
-                    </p>
-                    <p>
-                      Balayage
-                    </p>
-                    <p>
-                     Relaxers
-                    </p>
-                    <p>
-                      Perms
-                    </p>
-                    <p>
-                     Corrective Colour
-                    </p>
-                    
+                    <p style={{ color: "black" }}>Color Gloss</p>
+                    <p style={{ color: "black" }}>Tints</p>
+                    <p style={{ color: "black" }}>Lightners</p>
+                    <p style={{ color: "black" }}>Ombré</p>
+                    <p style={{ color: "black" }}>Highlights</p>
+                    <p style={{ color: "black" }}>Tint with Highlights</p>
+                    <p style={{ color: "black" }}>Balayage</p>
+                    <p style={{ color: "black" }}>Relaxers</p>
+                    <p style={{ color: "black" }}>Perms</p>
+                    <p style={{ color: "black" }}>Corrective Colour</p>
                   </div>
                 </li>
                 <li>
-                 
                   <div className="text pt-10">
-                    <h4>Waxing
-                      
-                    </h4>
-                    <p>
-                     Facial and Eyebrows
-                    </p>
+                    <h4>Waxing</h4>
+                    <p style={{color:"black"}}>Facial and Eyebrows</p>
                   </div>
                 </li>
-                <li>
-                 
-                  
-                </li>
+                <li></li>
               </ul>
             </div>
           </div>

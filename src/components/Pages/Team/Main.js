@@ -4,13 +4,21 @@ import Bredcrumb from "../../HomeMain/Bredcrumb";
 import Sam from "../../../assets/img/team/sam.png"
 import Jacki from "../../../assets/img/team/jacki.png"
 import Emily from "../../../assets/img/team/emily.png"
+import Trisha from "../../../assets/img/team/trishaboone_orig.png"
+import Vanessa from "../../../assets/img/team/vanessa.png"
+import Gloria from "../../../assets/img/team/gloria.png"
+import Jewel from "../../../assets/img/team/jewele.png"
+import Andrea from "../../../assets/img/team/andreawallace.png"
+import Julia from "../../../assets/img/team/julie.png"
+import Leslie from "../../../assets/img/team/lesliej.png"
+import Jennifer from "../../../assets/img/team/jennnifer.jpg"
+import shea from "../../../assets/img/team/team01.png"
+
 
 const Main = () => {
   return (
     <>
-     
-
-      <section className="team-area fix p-relative pt-120 pb-90">
+      <section className="team-area fix p-relative pt-150 pb-90">
         <div className="container">
           <div className="row">
             <div className="col-xl-3">
@@ -24,26 +32,9 @@ const Main = () => {
                   <h4>
                     <Link to="/team-details">Samantha Sykes</Link>
                   </h4>
-                  <p>Worker</p>
-                  <div className="team-social">
-                    <ul>
-                      <li>
-                        <a href="https://www.facebook.com/" title="Facebook">
-                          <i className="fab fa-facebook-f"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="https://www.instagram.com/" title="Instagram">
-                          <i className="fab fa-instagram"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="https://twitter.com" title="Twitter">
-                          <i className="fab fa-twitter"></i>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
+                  <p style={{ color: "black", fontWeight: "bold" }}>
+                    Owner/Stylist
+                  </p>
                 </div>
               </div>
             </div>
@@ -58,26 +49,9 @@ const Main = () => {
                   <h4>
                     <Link to="/team-details">Jacki Jochum</Link>
                   </h4>
-                  <p>Worker</p>
-                  <div className="team-social">
-                    <ul>
-                      <li>
-                        <a href="https://www.facebook.com/" title="Facebook">
-                          <i className="fab fa-facebook-f"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="https://www.instagram.com/" title="Instagram">
-                          <i className="fab fa-instagram"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="https://twitter.com" title="Twitter">
-                          <i className="fab fa-twitter"></i>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
+                  <p style={{ color: "black", fontWeight: "bold" }}>
+                    Owner/Stylist
+                  </p>
                 </div>
               </div>
             </div>
@@ -92,26 +66,7 @@ const Main = () => {
                   <h4>
                     <Link to="/team-details">Emily Moody</Link>
                   </h4>
-                  <p>Worker</p>
-                  <div className="team-social">
-                    <ul>
-                      <li>
-                        <a href="https://www.facebook.com/" title="Facebook">
-                          <i className="fab fa-facebook-f"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="https://www.instagram.com/" title="Instagram">
-                          <i className="fab fa-instagram"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="https://twitter.com" title="Twitter">
-                          <i className="fab fa-twitter"></i>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
+                  <p style={{ color: "black", fontWeight: "bold" }}>Stylist</p>
                 </div>
               </div>
             </div>
@@ -119,33 +74,14 @@ const Main = () => {
               <div className="single-team mb-45">
                 <div className="team-thumb">
                   <div className="brd">
-                    <img src="assets/img/team/team04.png" alt="img" />
+                    <img src={Leslie} />
                   </div>
                 </div>
                 <div className="team-info">
                   <h4>
-                    <Link to="/team-details">Gerard Peano</Link>
+                    <Link to="/team-details">Leslie Jernigen</Link>
                   </h4>
-                  <p>Worker</p>
-                  <div className="team-social">
-                    <ul>
-                      <li>
-                        <a href="https://www.facebook.com/" title="Facebook">
-                          <i className="fab fa-facebook-f"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="https://www.instagram.com/" title="Instagram">
-                          <i className="fab fa-instagram"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="https://twitter.com" title="Twitter">
-                          <i className="fab fa-twitter"></i>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
+                  <p style={{ color: "black", fontWeight: "bold" }}>Stylist</p>
                 </div>
               </div>
             </div>
@@ -153,33 +89,14 @@ const Main = () => {
               <div className="single-team mb-45">
                 <div className="team-thumb">
                   <div className="brd">
-                    <img src="assets/img/team/team05.png" alt="img" />
+                    <img src={Andrea} />
                   </div>
                 </div>
                 <div className="team-info">
                   <h4>
-                    <Link to="/team-details">Ostin Green</Link>
+                    <Link to="/team-details">Andrea Wallace</Link>
                   </h4>
-                  <p>Worker</p>
-                  <div className="team-social">
-                    <ul>
-                      <li>
-                        <a href="https://www.facebook.com/" title="Facebook">
-                          <i className="fab fa-facebook-f"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="https://www.instagram.com/" title="Instagram">
-                          <i className="fab fa-instagram"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="https://twitter.com" title="Twitter">
-                          <i className="fab fa-twitter"></i>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
+                  <p style={{ color: "black", fontWeight: "bold" }}>Stylist</p>
                 </div>
               </div>
             </div>
@@ -187,33 +104,14 @@ const Main = () => {
               <div className="single-team mb-45">
                 <div className="team-thumb">
                   <div className="brd">
-                    <img src="assets/img/team/team06.png" alt="img" />
+                    <img src={Vanessa} />
                   </div>
                 </div>
                 <div className="team-info">
                   <h4>
-                    <Link to="/team-details">Norman Colins</Link>
+                    <Link to="/team-details">Vanessa Faucette</Link>
                   </h4>
-                  <p>Worker</p>
-                  <div className="team-social">
-                    <ul>
-                      <li>
-                        <a href="https://www.facebook.com/" title="Facebook">
-                          <i className="fab fa-facebook-f"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="https://www.instagram.com/" title="Instagram">
-                          <i className="fab fa-instagram"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="https://twitter.com" title="Twitter">
-                          <i className="fab fa-twitter"></i>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
+                  <p style={{ color: "black", fontWeight: "bold" }}>Stylist</p>
                 </div>
               </div>
             </div>
@@ -221,33 +119,14 @@ const Main = () => {
               <div className="single-team mb-45">
                 <div className="team-thumb">
                   <div className="brd">
-                    <img src="assets/img/team/team07.png" alt="img" />
+                    <img src={Gloria} />
                   </div>
                 </div>
                 <div className="team-info">
                   <h4>
-                    <Link to="/team-details">Ostin Green</Link>
+                    <Link to="/team-details">Gloria Fornter</Link>
                   </h4>
-                  <p>Worker</p>
-                  <div className="team-social">
-                    <ul>
-                      <li>
-                        <a href="https://www.facebook.com/" title="Facebook">
-                          <i className="fab fa-facebook-f"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="https://www.instagram.com/" title="Instagram">
-                          <i className="fab fa-instagram"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="https://twitter.com" title="Twitter">
-                          <i className="fab fa-twitter"></i>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
+                  <p style={{ color: "black", fontWeight: "bold" }}>Stylist</p>
                 </div>
               </div>
             </div>
@@ -255,33 +134,59 @@ const Main = () => {
               <div className="single-team mb-45">
                 <div className="team-thumb">
                   <div className="brd">
-                    <img src="assets/img/team/team08.png" alt="img" />
+                    <img src={Jewel} />
                   </div>
                 </div>
                 <div className="team-info">
                   <h4>
-                    <Link to="/team-details">Norman Colins</Link>
+                    <Link to="/team-details">Jewel Vanorsdale</Link>
                   </h4>
-                  <p>Worker</p>
-                  <div className="team-social">
-                    <ul>
-                      <li>
-                        <a href="https://www.facebook.com/" title="Facebook">
-                          <i className="fab fa-facebook-f"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="https://www.instagram.com/" title="Instagram">
-                          <i className="fab fa-instagram"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="https://twitter.com" title="Twitter">
-                          <i className="fab fa-twitter"></i>
-                        </a>
-                      </li>
-                    </ul>
+                  <p style={{ color: "black", fontWeight: "bold" }}>Stylist</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3">
+              <div className="single-team mb-45">
+                <div className="team-thumb">
+                  <div className="brd">
+                    <img src={Trisha} />
                   </div>
+                </div>
+                <div className="team-info">
+                  <h4>
+                    <Link to="/team-details">Trisha Boone</Link>
+                  </h4>
+                  <p style={{ color: "black", fontWeight: "bold" }}>Stylist</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3">
+              <div className="single-team mb-45">
+                <div className="team-thumb">
+                  <div className="brd">
+                    <img src={Jennifer} />
+                  </div>
+                </div>
+                <div className="team-info">
+                  <h4>
+                    <Link to="/team-details">Jennifer</Link>
+                  </h4>
+                  <p style={{ color: "black", fontWeight: "bold" }}>Stylist</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3">
+              <div className="single-team mb-45">
+                <div className="team-thumb">
+                  <div className="brd">
+                    <img src={shea} />
+                  </div>
+                </div>
+                <div className="team-info">
+                  <h4>
+                    <Link to="/team-details">Shea</Link>
+                  </h4>
+                  <p style={{ color: "black", fontWeight: "bold" }}>Stylist</p>
                 </div>
               </div>
             </div>

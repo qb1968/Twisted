@@ -45,6 +45,7 @@ CSS Index
 	color: #777;
 	font-style: normal;
      line-height: 26px;
+     background-image: url("../img/bg/marble.jpg")
 }
 .text-left{
     text-align: left !important;
@@ -502,7 +503,7 @@ top: -3px;
 	padding: 20px 0;
     font-weight:600;
 	position: relative;
-    font-size: 16px;
+    font-size: 22px;
     font-family: 'PT Serif', serif;
 }
 .main-menu ul li a::after {

@@ -78,9 +78,9 @@ const Appointment = () => {
                           aria-label="Example select with button addon"
                         >
                           <option> Service Needed...</option>
-                          <option value="1">One</option>
-                          <option value="2">Two</option>
-                          <option value="3">Three</option>
+                          <option value="1">Color Services</option>
+                          <option value="2">Haircut</option>
+                          <option value="3">Hair Treatments</option>
                         </select>
                         <i className="fa fa-angle-down"></i>
                       </div>
@@ -93,9 +93,9 @@ const Appointment = () => {
                           aria-label="Example select with button addon"
                         >
                           <option> How Soon...</option>
-                          <option value="1">One</option>
-                          <option value="2">Two</option>
-                          <option value="3">Three</option>
+                          <option value="1">Hair Emergency(ASAP)</option>
+                          <option value="2">Next Few Weeks</option>
+                          <option value="3">In Next Few Months</option>
                         </select>
                         <i className="fa fa-angle-down"></i>
                       </div>
