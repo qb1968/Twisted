@@ -272,7 +272,7 @@ label {
 
 .btn {
 	border-radius: 10px;
-	color: #fff;
+	color: #black;
 	display: inline-block;
 	font-size: 16px;
 	letter-spacing: 0;
@@ -288,12 +288,12 @@ label {
 	position: relative;
     z-index: 999;
     text-transform: uppercase;
-    background: #884cd2;
+    background: #ADD8E6;
     border: none;
 }
 
 .btn:hover{
-    background: #ff4f9d;
+    background: #2D92B3;
     color: #fff;
 }
 .btn:hover::before{opacity: 0;}
@@ -495,7 +495,7 @@ top: -3px;
 	position: relative;
 }
 .main-menu ul li.active a {
-	color: #ADD8E6;
+	color:#2D92B3;
 }
 .main-menu ul li a {
 	display: block;
@@ -509,7 +509,7 @@ top: -3px;
 .main-menu ul li a::after {
   
   margin-left: 10px;
-  color: #ADD8E6;
+  color: #2D92B3;
 }
 .main-menu ul li:last-child a::after,.main-menu .has-sub ul li a::after {
   display: none;
@@ -530,7 +530,7 @@ top: -3px;
 	transition: .3s;
 }
 
-.main-menu ul li:hover > a{color: #ADD8E6;}
+.main-menu ul li:hover > a{color: #2D92B3;}
 .main-menu ul li:hover > a::before{width: 100%;}
 .display-ib{display: inline-block;}
 .header-social a {
@@ -5857,7 +5857,7 @@ text-align: left;
 }
 
 .main-menu .has-sub a:hover{
-	color:#ADD8E6;
+	color:#2D92B3;
 }
 
 .main-menu .has-sub:hover > ul { visibility: visible; margin-top: 0px; opacity: 1;}
@@ -5890,7 +5890,7 @@ top: -3px;
     color: #4f4f4f;
 }
 .main-menu .has-sub ul li a:hover {
-    color: #ff4f9d;
+    color: #2D92B3;
 }
 /* 23. mega menu */
 
