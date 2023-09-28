@@ -12,6 +12,7 @@ const Appointment = () => {
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
+          marginTop:"2rem"
         }}
       >
         <div className="container">
