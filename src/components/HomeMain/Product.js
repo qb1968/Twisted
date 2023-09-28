@@ -96,14 +96,14 @@ const Product = () => {
             <div className="col-lg-12">
               <div className="section-title center-align mb-50 text-center">
                 <h2>Bring Your Hair Back To Life</h2>
-                <p>
+                <p style={{fontWeight:"bold",color:"black"}}>
                   We pride ourselves on being innovative and cutting edge with
                   our hair color and hair styles.
                 </p>
               </div>
             </div>
           </div>
-          <Slider className="row home-blog-active" {...option}>
+          <Slider className="row home-blog-active" {...option} >
             <div className="col-lg-4 col-md-12">
               <div className="product mb-40">
                 <div className="product__img">

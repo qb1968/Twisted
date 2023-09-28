@@ -28,7 +28,7 @@ const Main = () => {
                     <nav id="mobile-menu">
                       <ul>
                         <li className="has-sub">
-                          <Link to="/home">Home</Link>
+                          <Link to="/">Home</Link>
                         </li>
                         <li className="has-sub">
                           <Link to="/about">About Us</Link>

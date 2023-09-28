@@ -16,7 +16,7 @@ const Main = () => {
         >
           <div className="col-lg-6">
             <div className="copy-text" style={{ color: "black" }}>
-              Copyright &copy; 2023 <Link to="#">Jonathan Mark Allison</Link>.
+              Copyright &copy; 2023 <Link to="#" style={{color:"black"}}>Jonathan Mark Allison</Link>.
               All rights reserved.
             </div>
           </div>
@@ -26,7 +26,10 @@ const Main = () => {
                 <li>
                   <div className="c-contact">
                     <div className="icon">
-                      <img src={Footer} alt="img" />
+                      <i
+                        class="fa fa-at"
+                        style={{ fontSize: "x-large", color: "black" }}
+                      />
                     </div>
                     <div className="text">
                       <span style={{ color: "black" }}>
@@ -39,7 +42,10 @@ const Main = () => {
                 <li>
                   <div className="c-contact">
                     <div className="icon">
-                      <img src={Footer1} alt="img" />
+                      <i
+                        class="fa fa-phone-volume"
+                        style={{ fontSize: "x-large", color: "black" }}
+                      />
                     </div>
                     <div className="text">
                       <span style={{ color: "black" }}>336.229.4078</span>

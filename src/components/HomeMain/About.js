@@ -46,7 +46,7 @@ const About = () => {
                     Our Services
                   </h5>
                 </div>
-                <p style={{color:"black"}}>
+                <p style={{color:"black",fontWeight:"bold"}}>
                   All of our services are specifically made for you. From hair
                   color to hair treatments, Twisted Sisters Salon is committed
                   to using innovative techniques to uplift our clients and leave
