@@ -33,9 +33,7 @@ const Main = () => {
                         <li className="has-sub">
                           <Link to="/about">About Us</Link>
                         </li>
-                        <li className="has-sub">
-                          <Link to="/service">Services</Link>
-                        </li>
+                       
                         <li className="has-sub">
                           <Link to="#">Pages</Link>
                           <ul>
@@ -106,9 +104,7 @@ const Main = () => {
                               <Link to="/about/">About Us</Link>
                             </li>
 
-                            <li className="has-sub">
-                              <Link to="/service">Services</Link>
-                            </li>
+                           
 
                             <li className="has-sub">
                               <Link to="/team">Twisted Team</Link>
@@ -122,7 +118,9 @@ const Main = () => {
                                 </li>
                               </ul>
                             </li>
-
+                            <li className="has-sub">
+                              <Link to="/gallery">Gallery</Link>
+                            </li>
                             <li className="mean-last">
                               <Link to="/contact">Contact</Link>
                             </li>

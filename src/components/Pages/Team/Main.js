@@ -12,7 +12,7 @@ import Andrea from "../../../assets/img/team/andreawallace.png"
 import Julia from "../../../assets/img/team/julie.png"
 import Leslie from "../../../assets/img/team/lesliej.png"
 import Jennifer from "../../../assets/img/team/jennnifer.jpg"
-import shea from "../../../assets/img/team/team01.png"
+import shea from "../../../assets/img/team/-6926988516833093368.jpg"
 
 
 const Main = () => {
@@ -30,7 +30,7 @@ const Main = () => {
                 </div>
                 <div className="team-info">
                   <h4>
-                    <Link to="/team-details">Samantha Sykes</Link>
+                    <Link to="#">Samantha Sykes</Link>
                   </h4>
                   <p style={{ color: "black", fontWeight: "bold" }}>
                     Owner/Stylist
@@ -47,7 +47,7 @@ const Main = () => {
                 </div>
                 <div className="team-info">
                   <h4>
-                    <Link to="/team-details">Jacki Jochum</Link>
+                    <Link to="#">Jacki Jochum</Link>
                   </h4>
                   <p style={{ color: "black", fontWeight: "bold" }}>
                     Owner/Stylist
@@ -64,7 +64,7 @@ const Main = () => {
                 </div>
                 <div className="team-info">
                   <h4>
-                    <Link to="/team-details">Emily Moody</Link>
+                    <Link to="#">Emily Moody</Link>
                   </h4>
                   <p style={{ color: "black", fontWeight: "bold" }}>Stylist</p>
                 </div>
@@ -79,7 +79,7 @@ const Main = () => {
                 </div>
                 <div className="team-info">
                   <h4>
-                    <Link to="/team-details">Leslie Jernigen</Link>
+                    <Link to="#">Leslie Jernigen</Link>
                   </h4>
                   <p style={{ color: "black", fontWeight: "bold" }}>Stylist</p>
                 </div>
@@ -94,7 +94,7 @@ const Main = () => {
                 </div>
                 <div className="team-info">
                   <h4>
-                    <Link to="/team-details">Andrea Wallace</Link>
+                    <Link to="#">Andrea Wallace</Link>
                   </h4>
                   <p style={{ color: "black", fontWeight: "bold" }}>Stylist</p>
                 </div>
@@ -109,7 +109,7 @@ const Main = () => {
                 </div>
                 <div className="team-info">
                   <h4>
-                    <Link to="/team-details">Vanessa Faucette</Link>
+                    <Link to="#">Vanessa Faucette</Link>
                   </h4>
                   <p style={{ color: "black", fontWeight: "bold" }}>Stylist</p>
                 </div>
@@ -124,7 +124,7 @@ const Main = () => {
                 </div>
                 <div className="team-info">
                   <h4>
-                    <Link to="/team-details">Gloria Fornter</Link>
+                    <Link to="#">Gloria Fornter</Link>
                   </h4>
                   <p style={{ color: "black", fontWeight: "bold" }}>Stylist</p>
                 </div>
@@ -139,7 +139,7 @@ const Main = () => {
                 </div>
                 <div className="team-info">
                   <h4>
-                    <Link to="/team-details">Jewel Vanorsdale</Link>
+                    <Link to="#">Jewel Vanorsdale</Link>
                   </h4>
                   <p style={{ color: "black", fontWeight: "bold" }}>Stylist</p>
                 </div>
@@ -154,7 +154,7 @@ const Main = () => {
                 </div>
                 <div className="team-info">
                   <h4>
-                    <Link to="/team-details">Trisha Boone</Link>
+                    <Link to="#">Trisha Boone</Link>
                   </h4>
                   <p style={{ color: "black", fontWeight: "bold" }}>Stylist</p>
                 </div>
@@ -169,7 +169,7 @@ const Main = () => {
                 </div>
                 <div className="team-info">
                   <h4>
-                    <Link to="/team-details">Jennifer</Link>
+                    <Link to="#">Jennifer</Link>
                   </h4>
                   <p style={{ color: "black", fontWeight: "bold" }}>Stylist</p>
                 </div>
@@ -184,7 +184,7 @@ const Main = () => {
                 </div>
                 <div className="team-info">
                   <h4>
-                    <Link to="/team-details">Shea</Link>
+                    <Link to="#">Shea</Link>
                   </h4>
                   <p style={{ color: "black", fontWeight: "bold" }}>Stylist</p>
                 </div>

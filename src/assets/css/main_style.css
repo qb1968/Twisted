@@ -3546,21 +3546,21 @@ background: #884cd2;
 line-height: 40px;
 }
 .team-social a:hover{
-    background: #ff4f9d;
+    background: #ADD8E6;
     color: #fff;
 }
 .single-team:hover .team-thumb .brd::before,.single-team:hover .team-thumb .brd::after{
-    color: #ff4f9d;
+    color: #ADD8E6;
 }
 
 .single-team:hover .team-info{
-   border-color: #ff4f9d;
+   border-color: #ADD8E6;
 }
 .team-t h2 {
 	top: 50px;
 }
 .single-team:hover .team-info h4{
-    color: #ff4f9d;
+    color: #ADD8E6;
 }
 .slick-slide {
     outline: none;
@@ -3581,7 +3581,7 @@ color: #fff;
 z-index: 9;
 cursor: pointer;
 transition: .3s;
-background: #ff4f9d;
+background: #ADD8E6;
 width: 50px;
 height: 50px;
 border-radius: 50%;
