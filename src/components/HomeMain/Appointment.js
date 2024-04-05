@@ -3,6 +3,21 @@ import React from "react";
 import Img from "../../assets/img/bg/open-box-img.png";
 
 const Appointment = () => {
+   onChange = function (event) {
+     let action;
+     switch (event.value) {
+       case "Jacki":
+         action = "https://submit-form.com/Y8fiWd3Pi";
+         break;
+       case "marketing":
+         action = "https://submit-form.com/marketing-form-id";
+         break;
+       case "hr":
+         action = "https://submit-form.com/hr-form-id";
+         break;
+     }
+     document.getElementById("my-form").action = action;
+   };
   return (
     <>
       <section
@@ -12,7 +27,7 @@ const Appointment = () => {
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
-          marginTop:"2rem"
+          marginTop: "2rem",
         }}
       >
         <div className="container">
@@ -24,9 +39,10 @@ const Appointment = () => {
                   <p>Fill out your information.</p>
                 </div>
                 <form
-                  action="mail.php"
+                  action="https://submit-form.com/Fah8w4pGF"
                   method="post"
                   className="contact-form mt-30"
+                  id="form1"
                 >
                   <div className="row">
                     <div className="col-lg-6">
@@ -55,14 +71,24 @@ const Appointment = () => {
                     <div className="col-lg-6">
                       <div className="contact-field p-relative c-subject mb-20">
                         <select
+                          name="stylist"
                           className="custom-select"
-                          id="inputGroupSelect04"
+                          id="Stylist"
                           aria-label="Example select with button addon"
+                          onchange="onChange(this)"
                         >
                           <option> Stylist...</option>
-                          <option value="1">Sam</option>
-                          <option value="2">Two</option>
-                          <option value="3">Three</option>
+                          <option value="Sam">Sam</option>
+                          <option value="Jacki">Jacki</option>
+                          <option value="3">Emily</option>
+                          <option value="3">Leslie</option>
+                          <option value="3">Andrea</option>
+                          <option value="3">Vanessa</option>
+                          <option value="3">Gloria</option>
+                          <option value="3">Jewel</option>
+                          <option value="3">Trisha</option>
+                          <option value="3">Jennifer</option>
+                          <option value="3">Shea</option>
                         </select>
                         <i className="fa fa-angle-down"></i>
                       </div>
@@ -71,6 +97,7 @@ const Appointment = () => {
                     <div className="col-lg-6">
                       <div className="contact-field p-relative c-subject mb-20">
                         <select
+                          name="service"
                           className="custom-select"
                           id="inputGroupSelect04"
                           aria-label="Example select with button addon"
@@ -86,6 +113,7 @@ const Appointment = () => {
                     <div className="col-lg-6">
                       <div className="contact-field p-relative c-subject mb-20">
                         <select
+                          name="when"
                           className="custom-select"
                           id="inputGroupSelect04"
                           aria-label="Example select with button addon"
@@ -123,14 +151,14 @@ const Appointment = () => {
               </div>
             </div>
             <div className="col-lg-6">
-              <div className="opening-time">
-                <div className="open-img">
-                  <img src={Img} alt="icon01" />
-                </div>
-                <h3>Contact Us Today!</h3>
-                <h2> S. Church St.</h2>
-                <h2>Burlington, NC 27215</h2>
-                <h2>Phone: 336.229.4078 2127</h2>
+              <div
+                className="opening-time"
+                style={{ backgroundColor: "rgb(173, 216, 230)" }}
+              >
+                <h3 style={{ textAlign: "center" }}>Contact Us Today!</h3>
+                <h4 style={{ textAlign: "center" }}>2127 S. Church St.</h4>
+                <h4 style={{ textAlign: "center" }}>Burlington, NC 27215</h4>
+                <h4 style={{ textAlign: "center" }}>Phone: 336.229.4078 </h4>
               </div>
             </div>
           </div>

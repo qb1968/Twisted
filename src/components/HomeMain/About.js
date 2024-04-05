@@ -42,11 +42,11 @@ const About = () => {
                 data-delay=".4s"
               >
                 <div className="about-title second-title pb-25">
-                  <h5 style={{ color: "#2D92B3", fontWeight: "bold",}}>
+                  <h5 style={{ color: "#2D92B3", fontWeight: "bold" }}>
                     Our Services
                   </h5>
                 </div>
-                <p style={{color:"black",fontWeight:"bold"}}>
+                <p style={{ color: "black", fontWeight: "bold" }}>
                   All of our services are specifically made for you. From hair
                   color to hair treatments, Twisted Sisters Salon is committed
                   to using innovative techniques to uplift our clients and leave
@@ -54,6 +54,62 @@ const About = () => {
                   limited to: balayage, ombré, hair extensions, hair cutting,
                   styling and so much more.
                 </p>
+              </div>
+              <div className="container">
+                <div className="row align-items-center">
+                  <div className="col-lg-12"></div>
+                  <div className="col-lg-4 col-md-6 col-sm-12">
+                    <div className="about-content s-about-content">
+                      <ul className="sr-tw-ul ">
+                        <li style={{ backgroundColor: "rgb(173, 216, 230)" }}>
+                          <div className="text">
+                            <h4>
+                              <h2 to="/service-details">Styles</h2>
+                            </h4>
+                            <p style={{ color: "black" }}>Cut/Style</p>
+                            <p style={{ color: "black" }}>Mens Cut</p>
+                            <p style={{ color: "black" }}>Children</p>
+                            <p style={{ color: "black" }}>Blowdry</p>
+                            <p style={{ color: "black" }}>
+                              Special Style/Updos
+                            </p>
+                          </div>
+                        </li>
+
+                        <li></li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div className="col-lg-4 col-md-12 col-sm-12 text-center d-none d-lg-block">
+                    <div className="sd-img"></div>
+                  </div>
+                  <div className="col-lg-4 col-md-6 col-sm-12">
+                    <div className="about-content s-about-content">
+                      <ul className="sr-tw-ul sr-thr-ul">
+                        <li style={{ backgroundColor: "rgb(173, 216, 230)" }}>
+                          <div className="text pt-40">
+                            <h4>
+                              <h2 to="/service-details">Technical</h2>
+                            </h4>
+                            <p style={{ color: "black" }}>Color Gloss</p>
+                            <p style={{ color: "black" }}>Tints</p>
+                            <p style={{ color: "black" }}>Lightners</p>
+                            <p style={{ color: "black" }}>Ombré</p>
+                            <p style={{ color: "black" }}>Highlights</p>
+                            <p style={{ color: "black" }}>
+                              Tint with Highlights
+                            </p>
+                            <p style={{ color: "black" }}>Balayage</p>
+                            <p style={{ color: "black" }}>Relaxers</p>
+                            <p style={{ color: "black" }}>Perms</p>
+                            <p style={{ color: "black" }}>Corrective Colour</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

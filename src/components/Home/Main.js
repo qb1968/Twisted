@@ -44,7 +44,7 @@ const Main = () => {
 
         <Product style={{ backgroundColor: "#ADD8E6" }} />
 
-        <Testimonial />
+        {/* <Testimonial /> */}
       </main>
     </>
   );

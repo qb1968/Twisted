@@ -10,20 +10,20 @@ import Img5 from "../../assets/img/gallery/13654331-1028986290520881-81044798276
 import Img6 from "../../assets/img/gallery/13669796-1028986640520846-6021489251483363875-n.jpg";
 import Img7 from "../../assets/img/gallery/30531041-1636385743114263-284652015559114752-n_1.jpg";
 import Img9 from "../../assets/img/gallery/3965389595778905444.jpg";
-import Img10 from "../../assets/img/gallery/hair-1.jpg";
-import Img11 from "../../assets/img/gallery/hair-1.jpg";
-import Img12 from "../../assets/img/gallery/hair-1.jpg";
-import Img13 from "../../assets/img/gallery/hair-1.jpg";
-import Img14 from "../../assets/img/gallery/hair-1.jpg";
-import Img15 from "../../assets/img/gallery/hair-1.jpg";
-import Img16 from "../../assets/img/gallery/hair-1.jpg";
-import Img17 from "../../assets/img/gallery/hair-1.jpg";
-import Img18 from "../../assets/img/gallery/hair-1.jpg";
-import Img19 from "../../assets/img/gallery/hair-1.jpg";
-import Img20 from "../../assets/img/gallery/hair-1.jpg";
-import Img21 from "../../assets/img/gallery/hair-1.jpg";
-import Img22 from "../../assets/img/gallery/hair-1.jpg";
-import Img23 from "../../assets/img/gallery/hair-1.jpg";
+import Img10 from "../../assets/img/gallery/img-2515_orig.png";
+import Img11 from "../../assets/img/gallery/img-2517.png";
+import Img12 from "../../assets/img/gallery/img-2533.png";
+import Img13 from "../../assets/img/gallery/img-2533_orig.png";
+import Img14 from "../../assets/img/gallery/img-3181-2.png";
+import Img15 from "../../assets/img/gallery/img-3213.png";
+import Img16 from "../../assets/img/gallery/img-3214.png";
+import Img17 from "../../assets/img/gallery/img-3215.png";
+import Img18 from "../../assets/img/gallery/img-3218.png";
+import Img19 from "../../assets/img/gallery/img-3309-2.png";
+import Img20 from "../../assets/img/gallery/img-3366.png";
+import Img21 from "../../assets/img/gallery/img-3504.png";
+import Img22 from "../../assets/img/gallery/img-4292.png";
+import Img23 from "../../assets/img/gallery/img-9085.jpg";
 
 const Gallery = () => {
   const [toggler, setToggler] = useState(false);
@@ -268,67 +268,70 @@ const Gallery = () => {
                 <img src={Img4} alt="" />
               </figure>
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-4">
               <figure>
                 <img src={Img3} alt="" />
               </figure>
             </div>
 
-            <div className="col-lg-6">
+            <div className="col-lg-4">
               <figure>
-                <img src={Img5} style={{ height: 500, width: 600 }} alt="" />
+                <img src={Img5}  alt="" />
               </figure>
             </div>
-            <div className="col-lg-3">
-              <img src={Img9} style={{ height: 300 }} alt="" />
+            <div className="col-lg-4">
+              <figure>
+              <img src={Img9} alt="" />
+              </figure>
             </div>
             <div className="col-lg-4">
-              <img src={Img6} alt="" />
+              <figure><img src={Img6} alt="" /></figure>
+              
             </div>
             <div className="col-lg-4">
-              <img src={Img7} alt="" />
+              <figure><img src={Img7} alt="" /></figure>
             </div>
             <div className="col-lg-4">
-              <img src={Img10} alt="" />
+             <figure><img src={Img10} alt="" /></figure> 
             </div>
             <div className="col-lg-4">
-              <img src={Img11} alt="" />
+              <figure><img src={Img11} alt="" /></figure>
             </div>
             <div className="col-lg-4">
-              <img src={Img12} alt="" />
+              <figure><img src={Img12} alt="" /></figure>
             </div>
             <div className="col-lg-4">
-              <img src={Img13} alt="" />
+               <figure><img src={Img13} alt="" /></figure>
             </div>
             <div className="col-lg-4">
-              <img src={Img14} alt="" />
+               <figure><img src={Img14} alt="" /></figure>
             </div>
             <div className="col-lg-4">
-              <img src={Img15} alt="" />
+               <figure><img src={Img15} alt="" /></figure>
             </div>
             <div className="col-lg-4">
-              <img src={Img16} alt="" />
+               <figure><img src={Img16} alt="" /></figure>
             </div>
             <div className="col-lg-4">
-              <img src={Img17} alt="" />
+               <figure><img src={Img17} alt="" /></figure>
             </div>
             <div className="col-lg-4">
-              <img src={Img18} alt="" />
+               <figure><img src={Img18} alt="" /></figure>
             </div>
             <div className="col-lg-4">
-              <img src={Img19} alt="" />
+               <figure><img src={Img19} alt="" /></figure>
             </div>
             <div className="col-lg-4">
-              <img src={Img20} alt="" />
+               <figure><img src={Img20} alt="" /></figure>
             </div>
             <div className="col-lg-4">
-              <img src={Img21} alt="" />
+               <figure><img src={Img21} alt="" /></figure>
             </div>
             <div className="col-lg-4">
-              <img src={Img22} alt="" />
+               <figure><img src={Img22} alt="" /></figure>
             </div>
             <div className="col-lg-4">
-              <img src={Img23} alt="" />
+               <figure><img src={Img23} alt="" /></figure>
             </div>
           </div>
         </div>

@@ -58,6 +58,23 @@
   <script type="JavaScript" src="assets/js/jquery.magnific-popup.min.js"></script>
   <script type="JavaScript" src="assets/js/element-in-view.js"></script>
   <script type="JavaScript" src="assets/js/main.js"></script>
+  <script>
+onChange = function (event) {
+     let action;
+     switch (event.value) {
+       case "sales":
+         action = "https://submit-form.com/Fah8w4pGF";
+         break;
+       case "marketing":
+         action = "https://submit-form.com/Y8fiWd3Pi";
+         break;
+       case "Jacki":
+         action = "https://submit-form.com/hr-form-id";
+         break;
+     }
+     document.getElementById("my-form").action = action;
+   };
+                </script>
    
 </body>
 </html>

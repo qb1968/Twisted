@@ -10679,7 +10679,7 @@ blockquote a ,blockquote cite{
     margin-top: 30px;
     color: #884cd2;
 }
-.opening-time h3::before{
+/* .opening-time h3::before{
 position: absolute;
 left: 0;
 bottom: 0;
@@ -10687,7 +10687,7 @@ width: 35%;
 height: 1px;
 background: #ff4f9d;
 content: "";
-}
+} */
 .opening-time .open-img{
     position: absolute;
     right: 0;

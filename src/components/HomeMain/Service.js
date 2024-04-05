@@ -33,8 +33,8 @@ const Service = () => {
           <div className="col-lg-4 col-md-6 col-sm-12">
             <div className="about-content s-about-content">
               <ul className="sr-tw-ul ">
-                <li>
-                  <div className="text">
+                <li style={{color:"blue"}}>
+                  <div className="text" >
                     <h4>
                       <h2 to="/service-details">Styles</h2>
                     </h4>

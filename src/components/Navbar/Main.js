@@ -23,7 +23,7 @@ const Main = () => {
                   justifyContent: "center",
                 }}
               >
-                <div className="col-xl-4 col-lg-7">
+                <div className="col-xl-6 col-lg-7">
                   <div className="main-menu ">
                     <nav id="mobile-menu">
                       <ul>
@@ -33,10 +33,12 @@ const Main = () => {
                         <li className="has-sub">
                           <Link to="/about">About Us</Link>
                         </li>
-                       
                         <li className="has-sub">
-                          <Link to="#">Pages</Link>
-                          <ul>
+                          <Link to="/team">Twisted Team</Link>
+                        </li>
+                        <li className="has-sub">
+                          <Link to="/gallery">Gallery</Link>
+                          {/* <ul>
                             <li>
                               <Link to="/gallery">Gallery</Link>
                             </li>
@@ -44,7 +46,7 @@ const Main = () => {
                             <li>
                               <Link to="/team"> Twisted Team</Link>
                             </li>
-                          </ul>
+                          </ul> */}
                         </li>
 
                         <li className="has-sub">
@@ -103,8 +105,6 @@ const Main = () => {
                             <li>
                               <Link to="/about/">About Us</Link>
                             </li>
-
-                           
 
                             <li className="has-sub">
                               <Link to="/team">Twisted Team</Link>
