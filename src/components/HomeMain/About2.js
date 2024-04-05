@@ -46,7 +46,7 @@ const About = () => {
                   About Us
                 </h5>
               </div>
-              <p>
+              <p style={{color:"black",fontWeight:"bold"}}>
                 It all started six years ago with sisters Jacki and Samantha sat
                 on a beach with the idea of owning their own salon. What was a
                 lifelong dream soon became a reality. It wasn't long after that
