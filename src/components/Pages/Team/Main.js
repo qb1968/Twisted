@@ -12,7 +12,7 @@ import Andrea from "../../../assets/img/team/andreawallace.png"
 import Julia from "../../../assets/img/team/julie.png"
 import Leslie from "../../../assets/img/team/lesliej.png"
 import Jennifer from "../../../assets/img/team/jennnifer.jpg"
-import shea from "../../../assets/img/team/-6926988516833093368.jpg"
+import shea from "../../../assets/img/team/Shea2.jpg"
 
 
 const Main = () => {
@@ -145,7 +145,7 @@ const Main = () => {
                 </div>
               </div>
             </div>
-            <div className="col-xl-3">
+        <div className="col-xl-3" >
               <div className="single-team mb-45">
                 <div className="team-thumb">
                   <div className="brd">
@@ -160,7 +160,7 @@ const Main = () => {
                 </div>
               </div>
             </div>
-            <div className="col-xl-3">
+            {/* <div className="col-xl-3">
               <div className="single-team mb-45">
                 <div className="team-thumb">
                   <div className="brd">
@@ -174,8 +174,8 @@ const Main = () => {
                   <p style={{ color: "black", fontWeight: "bold" }}>Stylist</p>
                 </div>
               </div>
-            </div>
-            <div className="col-xl-3">
+            </div> */}
+            <div className="col-xl-3" >
               <div className="single-team mb-45">
                 <div className="team-thumb">
                   <div className="brd">
