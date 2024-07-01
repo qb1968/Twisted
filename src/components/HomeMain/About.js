@@ -16,6 +16,7 @@ const About = () => {
         }}
       >
         <div className="container">
+          
           <div className="row justify-content-center align-items-center">
             <div className="col-lg-6 col-md-12 col-sm-12">
               <div

@@ -3,21 +3,7 @@ import React from "react";
 import Img from "../../assets/img/bg/open-box-img.png";
 
 const Appointment = () => {
-   onChange = function (event) {
-     let action;
-     switch (event.value) {
-       case "Jacki":
-         action = "https://submit-form.com/Y8fiWd3Pi";
-         break;
-       case "marketing":
-         action = "https://submit-form.com/marketing-form-id";
-         break;
-       case "hr":
-         action = "https://submit-form.com/hr-form-id";
-         break;
-     }
-     document.getElementById("my-form").action = action;
-   };
+   
   return (
     <>
       <section
@@ -87,7 +73,6 @@ const Appointment = () => {
                           <option value="3">Gloria</option>
                           <option value="3">Jewel</option>
                           <option value="3">Trisha</option>
-                          <option value="3">Jennifer</option>
                           <option value="3">Shea</option>
                         </select>
                         <i className="fa fa-angle-down"></i>

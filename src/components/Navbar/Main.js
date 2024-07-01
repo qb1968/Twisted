@@ -21,7 +21,7 @@ const Main = () => {
                   display: "flex",
                   flexDirection: "row",
                   justifyContent: "center",
-                  height:"100vh"
+                  
                 }}
               >
                 <div className="col-xl-6 col-lg-7">
