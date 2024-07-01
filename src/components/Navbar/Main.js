@@ -11,7 +11,7 @@ const Main = () => {
 
   return (
     <>
-      <header className="header-area header-three">
+      <header className="header-area header-three" style={{ backgroundColor: "#ADD8E6"}} >
         <div id="header" className="menu-area">
           <div className="container">
             <div className="second-menu">
@@ -56,7 +56,10 @@ const Main = () => {
                     </nav>
                   </div>
                 </div>
-                <img src={Img1} style={{ backgroundColor: "#ADD8E6" }} />
+                <div style={{display:"flex"}}>
+                  <img src={Img1} style={{ backgroundColor: "#ADD8E6"}} />
+                </div>
+                
                 <div className="col-xl-3 col-lg-3 text-right d-none d-lg-block mt-25 mb-25 text-right text-xl-right">
                   <div className="login">
                     <ul>
@@ -134,6 +137,7 @@ const Main = () => {
             </div>
           </div>
         </div>
+        
       </header>
     </>
   );

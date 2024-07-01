@@ -24,7 +24,7 @@ const About = () => {
                 data-animation="fadeInLeft"
                 data-delay=".4s"
               >
-                <img src={Img} alt="img" style={{ width: 800, height: 500 }} />
+                <img src={Img} alt="img" />
               </div>
             </div>
           </div>
@@ -47,7 +47,7 @@ const About = () => {
                 </h5>
               </div>
               <p style={{color:"black",fontWeight:"bold"}}>
-                It all started six years ago with sisters Jacki and Samantha sat
+                It all started six years ago with sisters Jacki and Samantha sitting
                 on a beach with the idea of owning their own salon. What was a
                 lifelong dream soon became a reality. It wasn't long after that
                 conversation that the Twisted Sisters Salon was born. Jacki and
@@ -65,7 +65,7 @@ const About = () => {
                 data-animation="fadeInLeft"
                 data-delay=".4s"
               >
-                <img src={Img1} alt="img" style={{ width: 800, height: 500 }} />
+                <img src={Img1} alt="img"  />
               </div>
             </div>
           </div>

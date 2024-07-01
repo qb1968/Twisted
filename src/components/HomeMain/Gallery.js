@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import React, { useState } from "react";
-import BGImg6 from "../../assets/img/bg/gallery-bg.png";
+import BGImg6 from "../../assets/img/bg/marble.jpg";
 import FsLightbox from "fslightbox-react";
 import Img1 from "../../assets/img/gallery/13606694-1028986350520875-2816605082181279621-n_1.jpg";
 import Img2 from "../../assets/img/gallery/13615171-1028986490520861-4117132115131478260-n.jpg";

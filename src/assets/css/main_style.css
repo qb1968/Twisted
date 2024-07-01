@@ -1801,9 +1801,9 @@ margin-bottom: 15px;
 	line-height: 1;
 }
 .second-about {
-    transform:translate(140%,-400px);
-    left: 0;
-    right: 25px;
+    transform:translate(140%,-10px);
+    left: 50px;
+    
     bottom: 0;
 }
 .second-about p {

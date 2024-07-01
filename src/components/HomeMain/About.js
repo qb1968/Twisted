@@ -23,10 +23,10 @@ const About = () => {
                 data-animation="fadeInLeft"
                 data-delay=".4s"
               >
-                <img src={Img} alt="img" style={{ width: 800, height: 500 }} />
+                <img src={Img} alt="img" />
                 <div
                   className="about-text second-about"
-                  style={{ marginLeft: 80 }}
+                  
                 >
                   <span style={{ color: "#2D92B3", fontWeight: "bold" }}>
                     19
