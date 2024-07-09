@@ -29,9 +29,9 @@ const Main = () => {
                   </div>
                 </div>
                 <div className="team-info">
-                  <h4>
+                  <h2>
                     <Link to="#">Samantha Sykes</Link>
-                  </h4>
+                  </h2>
                   <p style={{ color: "black", fontWeight: "bold" }}>
                     Owner/Stylist
                   </p>
@@ -46,9 +46,9 @@ const Main = () => {
                   </div>
                 </div>
                 <div className="team-info">
-                  <h4>
+                  <h2>
                     <Link to="#">Jacki Jochum</Link>
-                  </h4>
+                  </h2>
                   <p style={{ color: "black", fontWeight: "bold" }}>
                     Owner/Stylist
                   </p>
@@ -63,9 +63,9 @@ const Main = () => {
                   </div>
                 </div>
                 <div className="team-info">
-                  <h4>
+                  <h2>
                     <Link to="#">Emily Moody</Link>
-                  </h4>
+                  </h2>
                   <p style={{ color: "black", fontWeight: "bold" }}>Stylist</p>
                 </div>
               </div>
@@ -78,9 +78,9 @@ const Main = () => {
                   </div>
                 </div>
                 <div className="team-info">
-                  <h4>
+                  <h2>
                     <Link to="#">Leslie Jernigen</Link>
-                  </h4>
+                  </h2>
                   <p style={{ color: "black", fontWeight: "bold" }}>Stylist</p>
                 </div>
               </div>
@@ -93,9 +93,9 @@ const Main = () => {
                   </div>
                 </div>
                 <div className="team-info">
-                  <h4>
+                  <h2>
                     <Link to="#">Andrea Wallace</Link>
-                  </h4>
+                  </h2>
                   <p style={{ color: "black", fontWeight: "bold" }}>Stylist</p>
                 </div>
               </div>
@@ -108,9 +108,9 @@ const Main = () => {
                   </div>
                 </div>
                 <div className="team-info">
-                  <h4>
+                  <h2>
                     <Link to="#">Vanessa Faucette</Link>
-                  </h4>
+                  </h2>
                   <p style={{ color: "black", fontWeight: "bold" }}>Stylist</p>
                 </div>
               </div>
@@ -123,39 +123,9 @@ const Main = () => {
                   </div>
                 </div>
                 <div className="team-info">
-                  <h4>
+                  <h2>
                     <Link to="#">Gloria Fornter</Link>
-                  </h4>
-                  <p style={{ color: "black", fontWeight: "bold" }}>Stylist</p>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-3">
-              <div className="single-team mb-45">
-                <div className="team-thumb">
-                  <div className="brd">
-                    <img src={Jewel} />
-                  </div>
-                </div>
-                <div className="team-info">
-                  <h4>
-                    <Link to="#">Jewel Vanorsdale</Link>
-                  </h4>
-                  <p style={{ color: "black", fontWeight: "bold" }}>Stylist</p>
-                </div>
-              </div>
-            </div>
-        <div className="col-xl-3" >
-              <div className="single-team mb-45">
-                <div className="team-thumb">
-                  <div className="brd">
-                    <img src={Trisha} />
-                  </div>
-                </div>
-                <div className="team-info">
-                  <h4>
-                    <Link to="#">Trisha Boone</Link>
-                  </h4>
+                  </h2>
                   <p style={{ color: "black", fontWeight: "bold" }}>Stylist</p>
                 </div>
               </div>
@@ -164,13 +134,29 @@ const Main = () => {
               <div className="single-team mb-45">
                 <div className="team-thumb">
                   <div className="brd">
+                    <img src={Jewel} />
+                  </div>
+                </div>
+                <div className="team-info">
+                  <h2>
+                    <Link to="#">Jewel Vanorsdale</Link>
+                  </h2>
+                  <p style={{ color: "black", fontWeight: "bold" }}>Stylist</p>
+                </div>
+              </div>
+            </div> */}
+        
+            {/* <div className="col-xl-3">
+              <div className="single-team mb-45">
+                <div className="team-thumb">
+                  <div className="brd">
                     <img src={Jennifer} />
                   </div>
                 </div>
                 <div className="team-info">
-                  <h4>
+                  <h2>
                     <Link to="#">Jennifer</Link>
-                  </h4>
+                  </h2>
                   <p style={{ color: "black", fontWeight: "bold" }}>Stylist</p>
                 </div>
               </div>
@@ -183,9 +169,24 @@ const Main = () => {
                   </div>
                 </div>
                 <div className="team-info">
-                  <h4>
+                  <h2>
                     <Link to="#">Shea</Link>
-                  </h4>
+                  </h2>
+                  <p style={{ color: "black", fontWeight: "bold" }}>Stylist</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3" >
+              <div className="single-team mb-45">
+                <div className="team-thumb">
+                  <div className="brd">
+                    <img src={Trisha} />
+                  </div>
+                </div>
+                <div className="team-info">
+                  <h2>
+                    <Link to="#">Trisha Boone</Link>
+                  </h2>
                   <p style={{ color: "black", fontWeight: "bold" }}>Stylist</p>
                 </div>
               </div>

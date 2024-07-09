@@ -66,14 +66,14 @@ const Appointment = () => {
                           <option> Stylist...</option>
                           <option value="Sam">Sam</option>
                           <option value="Jacki">Jacki</option>
-                          <option value="3">Emily</option>
-                          <option value="3">Leslie</option>
-                          <option value="3">Andrea</option>
-                          <option value="3">Vanessa</option>
-                          <option value="3">Gloria</option>
-                          <option value="3">Jewel</option>
-                          <option value="3">Trisha</option>
-                          <option value="3">Shea</option>
+                          <option value="Emily">Emily</option>
+                          <option value="leslie">Leslie</option>
+                          <option value="Andrea">Andrea</option>
+                          <option value="Vanessa">Vanessa</option>
+                          <option value="Gloria">Gloria</option>
+                          
+                          <option value="Trisha">Trisha</option>
+                          <option value="Shea">Shea</option>
                         </select>
                         <i className="fa fa-angle-down"></i>
                       </div>
@@ -88,9 +88,9 @@ const Appointment = () => {
                           aria-label="Example select with button addon"
                         >
                           <option> Service Needed...</option>
-                          <option value="1">Color Services</option>
-                          <option value="2">Haircut</option>
-                          <option value="3">Hair Treatments</option>
+                          <option value="Color Services">Color Services</option>
+                          <option value="Haircut">Haircut</option>
+                          <option value="Hair Treatments">Hair Treatments</option>
                         </select>
                         <i className="fa fa-angle-down"></i>
                       </div>
@@ -104,9 +104,9 @@ const Appointment = () => {
                           aria-label="Example select with button addon"
                         >
                           <option> How Soon...</option>
-                          <option value="1">Hair Emergency(ASAP)</option>
-                          <option value="2">Next Few Weeks</option>
-                          <option value="3">In Next Few Months</option>
+                          <option value="ASAP">Hair Emergency(ASAP)</option>
+                          <option value="Next Few Weeks">Next Few Weeks</option>
+                          <option value="Next Few Months">In Next Few Months</option>
                         </select>
                         <i className="fa fa-angle-down"></i>
                       </div>
