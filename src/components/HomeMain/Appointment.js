@@ -56,6 +56,17 @@ const Appointment = () => {
                     </div>
                     <div className="col-lg-6">
                       <div className="contact-field p-relative c-subject mb-20">
+                        <input
+                          type="text"
+                          id="phone"
+                          name="phone"
+                          placeholder="Phone Number"
+                          required
+                        />
+                      </div>
+                    </div>
+                    <div className="col-lg-6">
+                      <div className="contact-field p-relative c-subject mb-20">
                         <select
                           name="stylist"
                           className="custom-select"
