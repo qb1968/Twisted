@@ -36,16 +36,16 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6 col-md-12 col-sm-12">
+            <div className="col-lg-6 col-md-12 col-sm-12 pt-35">
               <div
                 className="about-content s-about-content  wow fadeInRight  animated"
                 data-animation="fadeInRight"
                 data-delay=".4s"
               >
                 <div className="about-title second-title pb-25">
-                  <h5 style={{ color: "#2D92B3", fontWeight: "bold" }}>
+                  <h2 style={{ color: "#2D92B3", fontWeight: "bold" }}>
                     Our Services
-                  </h5>
+                  </h2>
                 </div>
                 <p style={{ color: "black", fontWeight: "bold" }}>
                   All of our services are specifically made for you. From hair

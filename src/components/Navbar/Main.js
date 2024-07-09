@@ -11,7 +11,7 @@ const Main = () => {
 
   return (
     <>
-      <header className="header-area header-three" style={{ backgroundColor: "#ADD8E6"}} >
+      <header className="header-area header-three" style={{ backgroundColor: "#ADD8E6",height:"auto"}} >
         <div id="header" className="menu-area">
           <div className="container">
             <div className="second-menu">
