@@ -36,7 +36,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6 col-md-12 col-sm-12 pt-35">
+            <div className="col-lg-6 col-md-12 col-sm-12 pt-125">
               <div
                 className="about-content s-about-content  wow fadeInRight  animated"
                 data-animation="fadeInRight"
