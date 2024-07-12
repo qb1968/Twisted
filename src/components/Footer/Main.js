@@ -33,7 +33,7 @@ const Main = () => {
                     </div>
                     <div className="text">
                       <span style={{ color: "black" }}>
-                        jj.stylesrock@yahoo.com
+                        info@twistedsistershair.com
                       </span>
                       <h3 style={{ color: "black" }}> Our Email:</h3>
                     </div>
