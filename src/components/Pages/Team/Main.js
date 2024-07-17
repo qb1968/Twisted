@@ -18,7 +18,7 @@ import shea from "../../../assets/img/team/Shea2.jpg"
 const Main = () => {
   return (
     <>
-      <section className="team-area fix p-relative pt-150 pb-90">
+      <section className="team-area fix p-relative pt-180 pb-90">
         <div className="container">
           <div className="row">
             <div className="col-xl-3">

@@ -8,7 +8,7 @@ const Appointment = () => {
     <>
       <section
         id="booking"
-        className="booking-area p-relative pt-120 pb-120"
+        className="booking-area p-relative pt-180 pb-120"
         style={{
           backgroundSize: "cover",
           backgroundPosition: "center",
