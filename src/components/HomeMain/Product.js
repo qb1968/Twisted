@@ -7,10 +7,15 @@ import { faAngleLeft } from "@fortawesome/free-solid-svg-icons";
 import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
 import Img1 from "../../assets/img/gallery/back1.png";
 import Img2 from "../../assets/img/gallery/back2.png";
-import Img3 from "../../assets/img/shop/img3.jpg";
-import Img4 from "../../assets/img/shop/img4.jpg";
-import Img5 from "../../assets/img/shop/img5.jpg";
-import Img6 from "../../assets/img/shop/img6.jpg";
+import Img3 from "../../assets/img/gallery/1.jpg";
+import Img4 from "../../assets/img/gallery/2.jpg";
+import Img5 from "../../assets/img/gallery/3.jpg";
+import Img6 from "../../assets/img/gallery/4.jpg";
+import Img7 from "../../assets/img/gallery/5.jpg";
+import Img8 from "../../assets/img/gallery/6.jpg";
+import Img9 from "../../assets/img/gallery/7.jpg";
+import Img10 from "../../assets/img/gallery/8.jpg";
+import Img11 from "../../assets/img/gallery/9.jpg";
 
 function SamplePrevArrow(props) {
   const { className, style, onClick } = props;
@@ -115,6 +120,69 @@ const Product = () => {
               <div className="product mb-40">
                 <div className="product__img">
                   <img src={Img2} alt="" />
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-12">
+              <div className="product mb-40">
+                <div className="product__img">
+                  <img src={Img3} alt="" />
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-12">
+              <div className="product mb-40">
+                <div className="product__img">
+                  <img src={Img4} alt="" />
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-12">
+              <div className="product mb-40">
+                <div className="product__img">
+                  <img src={Img5} alt="" />
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-12">
+              <div className="product mb-40">
+                <div className="product__img">
+                  <img src={Img6} alt="" />
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-12">
+              <div className="product mb-40">
+                <div className="product__img">
+                  <img src={Img7} alt="" />
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-12">
+              <div className="product mb-40">
+                <div className="product__img">
+                  <img src={Img8} alt="" />
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-12">
+              <div className="product mb-40">
+                <div className="product__img">
+                  <img src={Img9} alt="" />
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-12">
+              <div className="product mb-40">
+                <div className="product__img">
+                  <img src={Img10} alt="" />
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-12">
+              <div className="product mb-40">
+                <div className="product__img">
+                  <img src={Img11} alt="" />
                 </div>
               </div>
             </div>

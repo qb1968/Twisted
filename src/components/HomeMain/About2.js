@@ -2,7 +2,10 @@ import React from "react";
 import BGImg1 from "../../assets/img/bg/about-bg.png";
 import { Link } from "react-router-dom";
 import Img from "../../assets/img/gallery/sam-and-sissy-frojt_orig.png";
-import Img1 from "../../assets/img/gallery/o-2_orig.jpg";
+import Img1 from "../../assets/img/gallery/12.jpg";
+import Img2 from "../../assets/img/gallery/13.jpg"
+import Img3 from "../../assets/img/gallery/14.jpg"
+import Img4 from "../../assets/img/gallery/15.jpg"
 
 const About = () => {
   return (
@@ -25,10 +28,11 @@ const About = () => {
                 data-delay=".4s"
               >
                 <img src={Img} alt="img" />
+                
               </div>
             </div>
           </div>
-          <div className="col-lg-6 col-md-12 col-sm-12">
+          <div className="col-lg-8 col-md-12 col-sm-12">
             <div
               className="about-content s-about-content  wow fadeInRight  animated"
               data-animation="fadeInRight"
@@ -58,16 +62,33 @@ const About = () => {
               </p>
             </div>
           </div>
-          <div className="row justify-content-center align-items-center">
-            <div className="col-lg-6 col-md-12 col-sm-12">
+          <div className="row justify-content-center align-items-center ">
+            <div className="row-lg-8 row-md-12 row-sm-12">
               <div
                 className="s-about-img p-relative  wow fadeInLeft animated"
                 data-animation="fadeInLeft"
                 data-delay=".4s"
               >
-                <img src={Img1} alt="img"  />
-              </div>
+                <img src={Img1} alt="img"  style={{padding:10}}/>
+               <img src={Img3} alt="img" style={{padding:10}}/>
+               
+              </div> 
             </div>
+
+          </div>
+          <div className="row justify-content-center align-items-center ">
+            <div className="row-lg-8 row-md-12 row-sm-12">
+              <div
+                className="s-about-img p-relative  wow fadeInLeft animated"
+                data-animation="fadeInLeft"
+                data-delay=".4s"
+              >
+                <img src={Img1} alt="img"  style={{padding:10}}/>
+               <img src={Img3} alt="img" style={{padding:10}}/>
+               
+              </div> 
+            </div>
+            
           </div>
         </div>
       </section>

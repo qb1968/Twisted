@@ -170,7 +170,7 @@ const Main = () => {
                 </div>
                 <div className="team-info">
                   <h2>
-                    <Link to="#">Shea</Link>
+                    <Link to="/gallery2">Shea</Link>
                   </h2>
                   <p style={{ color: "black", fontWeight: "bold" }}>Stylist</p>
                 </div>
