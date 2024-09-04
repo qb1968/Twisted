@@ -17,7 +17,7 @@ const Main = () => {
           <div className="col-lg-6">
             <div className="copy-text" style={{ color: "black" }}>
               Copyright &copy; 2024 <Link to="#" style={{color:"black"}}>Allison Web Consultants, LLC</Link>.
-              All rights reserved.
+             
             </div>
           </div>
           <div className="col-lg-6">
