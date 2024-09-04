@@ -235,8 +235,10 @@ const Gallery = () => {
       </section> */}
       <section
         className="team-area fix p-relative pt-180 pb-90"
-        style={{ backgroundImage: `url(${BGImg6})` }}
-      >
+        // style={{ backgroundImage: `url(${BGImg6})` }}
+      >                      
+      
+
        <h1 style={{textAlign:"center"}}>Shea's Gallery</h1>
         <div className="container">
           <div className="row">

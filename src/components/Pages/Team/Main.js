@@ -170,8 +170,10 @@ const Main = () => {
                 </div>
                 <div className="team-info">
                   <h2>
-                    <Link to="/gallery2">Shea</Link>
-                  </h2>
+                    <Link to="#">Shea</Link>
+                    </h2>
+                    <h3><Link to="/gallery2">Gallery</Link></h3>
+                  
                   <p style={{ color: "black", fontWeight: "bold" }}>Stylist</p>
                 </div>
               </div>
