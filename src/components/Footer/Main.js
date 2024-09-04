@@ -16,8 +16,8 @@ const Main = () => {
         >
           <div className="col-lg-6">
             <div className="copy-text" style={{ color: "black" }}>
-              Copyright &copy; 2024 <Link to="#" style={{color:"black"}}>Allison Web Consultants, LLC</Link>.
-              All rights reserved.
+              <h4>Copyright &copy; 2024 <Link to="#" style={{color:"black"}}>Allison Web Consultants, LLC</Link>.
+              All rights reserved.</h4>
             </div>
           </div>
           <div className="col-lg-6">
@@ -32,10 +32,11 @@ const Main = () => {
                       />
                     </div>
                     <div className="text">
+                      <h3 style={{ color: "black" }}> Our Email:</h3>
                       <span style={{ color: "black" }}>
                         info@twistedsistershair.com
                       </span>
-                      <h3 style={{ color: "black" }}> Our Email:</h3>
+                      
                     </div>
                   </div>
                 </li>
@@ -48,8 +49,9 @@ const Main = () => {
                       />
                     </div>
                     <div className="text">
-                      <span style={{ color: "black" }}>336.229.4078</span>
                       <h3 style={{ color: "black" }}>Call Now:</h3>
+                      <span style={{ color: "black" }}>336.229.4078</span>
+                      
                     </div>
                   </div>
                 </li>
