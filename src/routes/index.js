@@ -11,6 +11,8 @@ import ServiceDetails from '../components/Service/ServiceDetails/Main'
 import Gallery from '../components/Pages/Gallery/Main'
 import Gallery2 from '../components/Pages/Gallery/Main2'
 import Gallery3 from '../components/Pages/Gallery/Main3'
+import Gallery4 from '../components/Pages/Gallery/Main4'
+import Gallery5 from '../components/Pages/Gallery/Main5'
 import Pricing from '../components/Pages/Pricing/Main'
 import Faq from '../components/Pages/Faq/Main'
 import Team from '../components/Pages/Team/Main'
@@ -58,6 +60,8 @@ const Routing = () => {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/gallery2" element={<Gallery2/>}/>
         <Route path="/gallery3" element={<Gallery3/>}/>
+        <Route path="/gallery4" element={<Gallery4/>}/>
+        <Route path="/gallery5" element={<Gallery5/>}/>
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/faq" element={<Faq />} />
         <Route path="/team" element={<Team />} />

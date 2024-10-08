@@ -32,6 +32,7 @@ const Main = () => {
                   <h2>
                     <Link to="#">Samantha Sykes</Link>
                   </h2>
+                  <h3><Link to="/gallery4">Gallery</Link></h3>
                   <p style={{ color: "black", fontWeight: "bold" }}>
                     Owner/Stylist
                   </p>
@@ -66,6 +67,8 @@ const Main = () => {
                   <h2>
                     <Link to="#">Emily Moody</Link>
                   </h2>
+                  <h3><Link to="/gallery5">Gallery</Link></h3>
+                  <p style={{fontFamily:"serif",color: "black", fontWeight: "bold"}}>Email: emilymoody28@aol.com</p>
                   <p style={{ color: "black", fontWeight: "bold" }}>Stylist</p>
                 </div>
               </div>
