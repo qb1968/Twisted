@@ -13,6 +13,7 @@ import Julia from "../../../assets/img/team/julie.png"
 import Leslie from "../../../assets/img/team/lesliej.png"
 import Jennifer from "../../../assets/img/team/jennnifer.jpg"
 import shea from "../../../assets/img/team/Shea2.jpg"
+import Angie from "../../../assets/img/team/Angie.jpg"
 
 
 const Main = () => {
@@ -193,6 +194,22 @@ const Main = () => {
                     <Link to="#">Trisha Boone</Link>
                   </h2>
                   <h3><Link to="/gallery3">Gallery</Link></h3>
+                  <p style={{ color: "black", fontWeight: "bold" }}>Stylist</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3" >
+              <div className="single-team mb-45">
+                <div className="team-thumb">
+                  <div className="brd">
+                    <img src={Angie} />
+                  </div>
+                </div>
+                <div className="team-info">
+                  <h2>
+                    <Link to="#">Angie Lynnn</Link>
+                  </h2>
+                  <h3><Link to="/gallery6">Gallery</Link></h3>
                   <p style={{ color: "black", fontWeight: "bold" }}>Stylist</p>
                 </div>
               </div>
