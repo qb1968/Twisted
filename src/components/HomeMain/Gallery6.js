@@ -13,13 +13,14 @@ import Img8 from "../../assets/img/gallery/Angie/13.jpg";
 import Img9 from "../../assets/img/gallery/Angie/14.jpg"
 import Img10 from "../../assets/img/gallery/Angie/15.jpg";
 import Img11 from "../../assets/img/gallery/Angie/18.jpg";
-import Img12 from "../../assets/img/gallery/Angie/19.jpg";
-import Img13 from "../../assets/img/gallery/Angie/20.jpg";
-import Img14 from "../../assets/img/gallery/Angie/21.jpg";
-import Img15 from "../../assets/img/gallery/Angie/22.jpg";
-import Img16 from "../../assets/img/gallery/Angie/23.jpg";
-import Img17 from "../../assets/img/gallery/Angie/24.jpg";
-import Img18 from "../../assets/img/gallery/Angie/25.jpg";
+import Img12 from "../../assets/img/gallery/Angie/27.jpg";
+import Img13 from "../../assets/img/gallery/Angie/28.jpg";
+import Img14 from "../../assets/img/gallery/Angie/29.jpg";
+import Img15 from "../../assets/img/gallery/Angie/30.jpg";
+import Img16 from "../../assets/img/gallery/Angie/31.jpg";
+import Img17 from "../../assets/img/gallery/Angie/32.jpg";
+import Img18 from "../../assets/img/gallery/Angie/33.jpg";
+import Img19 from "../../assets/img/gallery/Angie/34.jpg";
 // import Img19 from "../../assets/img/gallery/Trisha/j.jpeg";
 // import Img16 from "../../assets/img/gallery/img-3214.png";
 // import Img17 from "../../assets/img/gallery/img-3215.png";
@@ -51,7 +52,8 @@ const Gallery = () => {
     Img15,
     Img16,
     Img17,
-    Img18
+    Img18,
+    Img19
   ]);
 
   return (
@@ -324,9 +326,9 @@ const Gallery = () => {
             <div className="col-lg-4">
               <figure><img src={Img18} alt="" /></figure>
             </div>
-            {/* <div className="col-lg-4">
+            <div className="col-lg-4">
               <figure><img src={Img19} alt="" /></figure>
-            </div> */}
+            </div>
             
           </div>
         </div>
